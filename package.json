@@ -6,7 +6,7 @@
     "dev": "nuxt",
     "generate": "nuxt generate"
   },
-  "author": "",
+  "author": "Thorben Dittmar <roikiermedia@users.noreply.github.com>",
   "license": "MIT",
   "dependencies": {
     "nuxt": "^1.0.0-rc11"
