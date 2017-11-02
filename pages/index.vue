@@ -1,10 +1,13 @@
 <template>
 	<section>
-
-		<div class="background">
-			<img src="~/assets/img/wh-logo.svg" alt="" id="wh-logo" class="absolute">
-			<img src="~/assets/img/wh-info.svg" alt="" id="wh-info" class="absolute">
+		
+		<div class="wrapper">
+			<h1 contenteditable="true">Saal 1</h1>
+			<p contenteditable="true">Das geht nicht in Saal 1!</p>
 		</div>
+
+		<img src="~/assets/img/wh-logo.svg" alt="" id="wh-logo" class="absolute">
+		<img src="~/assets/img/wh-info.svg" alt="" id="wh-info" class="absolute">
 	</section>
 </template>
 
@@ -18,7 +21,8 @@
 }
 
 body {
-	height: 100%;
+	width: 100vw;
+	height: 100vh;
 
 	margin: 0 !important; 
   padding: 0 !important;
@@ -33,11 +37,35 @@ body {
 	-webkit-print-color-adjust:exact;
 }
 
-.background {
+.wrapper {
+	position: absolute;
+	z-index: 100;
+
 	width: 100vw;
 	height: 100vh;
 
-	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+[contenteditable="true"] {
+	width: 100% !important;
+
+	text-align: center;
+}
+
+h1 {
+	margin: 0;
+	margin-bottom: 0.5cm;
+
+	font-size: 90pt;
+}
+p {
+	margin: 0;
+	margin-top: 0.5cm;
+
+	font-size: 32pt;
 }
 
 .absolute {
@@ -45,10 +73,12 @@ body {
 	height: 2.5cm;
 	width: auto;
 }
+
 #wh-logo {
 	bottom: 0.75cm;
 	left: 1cm;
 }
+
 #wh-info {
 	bottom: 0.75cm;
 	right: 1cm;
