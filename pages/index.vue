@@ -24,6 +24,8 @@ body {
   padding: 0 !important;
 	overflow: hidden;
 
+	font-family: 'Arvo', serif;
+
 	background-image: url('~/assets/img/wh-waves.svg');
 	background-size: 125%;
 	background-position: center;
