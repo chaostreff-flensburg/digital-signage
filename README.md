@@ -4,7 +4,7 @@
 ## Usage
 
 Go to [http://schild.weekendhack.de/](http://schild.weekendhack.de/), type your words, print the page.   
-Set your printer to also print backgorund images, if not already selected. Your sign wont look as nice without them. Also set the scale to 100% and print in landscape.
+Set your printer to also print background images, if not already selected. Your sign wont look as nice without them. Also set the scale to 100% and print in landscape.
 
 ## Development
 
