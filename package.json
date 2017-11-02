@@ -1,6 +1,6 @@
 {
   "name": "digitalsignage",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Schilderwald as a Service",
   "scripts": {
     "dev": "nuxt",
