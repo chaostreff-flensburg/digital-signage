@@ -7,5 +7,8 @@ module.exports = {
     link: [
 			{ rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Arvo:400,700'}
     ]
-	}
+  },
+  generate: {
+    dir: 'docs'
+  }
 }
