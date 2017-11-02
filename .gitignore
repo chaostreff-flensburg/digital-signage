@@ -1,3 +1,6 @@
+# nuxt.js
+.nuxt
+
 # IDE - VSCode
 .vscode/*
 !.vscode/settings.json
