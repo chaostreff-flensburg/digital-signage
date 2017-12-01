@@ -6,10 +6,15 @@
 			<p contenteditable="true">Das geht nicht in Saal 1!</p>
 		</div>
 
-		<img src="~/assets/img/wh-logo.svg" alt="" id="wh-logo" class="absolute">
-		<img src="~/assets/img/wh-info.svg" alt="" id="wh-info" class="absolute">
 	</section>
 </template>
+
+<script>
+export default {
+	layout: 'weekendHack0x3'
+}
+</script>
+
 
 <style lang="scss">
 @media print {
@@ -27,12 +32,6 @@ body {
 	margin: 0 !important; 
   padding: 0 !important;
 	overflow: hidden;
-
-	font-family: 'Arvo', serif;
-
-	background-image: url('~/assets/img/wh-waves.svg');
-	background-size: 125%;
-	background-position: center;
 
 	-webkit-print-color-adjust:exact;
 }
@@ -66,21 +65,5 @@ p {
 	margin-top: 0.5cm;
 
 	font-size: 32pt;
-}
-
-.absolute {
-	position: absolute;
-	height: 2.5cm;
-	width: auto;
-}
-
-#wh-logo {
-	bottom: 0.75cm;
-	left: 1cm;
-}
-
-#wh-info {
-	bottom: 0.75cm;
-	right: 1cm;
 }
 </style>
