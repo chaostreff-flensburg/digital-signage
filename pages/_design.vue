@@ -11,7 +11,9 @@
 
 <script>
 export default {
-	layout: 'weekendHack0x3'
+	layout(context) {
+		return context.params.design;
+	}
 }
 </script>
 
