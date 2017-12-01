@@ -2,8 +2,8 @@
 	<section>
 		
 		<div class="wrapper">
-			<h1 contenteditable="true">Saal 1</h1>
-			<p contenteditable="true">Das geht nicht in Saal 1!</p>
+			<h1 contenteditable="true">{{heading}}</h1>
+			<p contenteditable="true">{{subline}}</p>
 		</div>
 
 	</section>
@@ -13,7 +13,13 @@
 export default {
 	layout(context) {
 		return context.params.design;
-	}
+	},
+	asyncData(context) {
+		return {
+			heading: context.query.heading || 'Saal 1',
+			subline: context.query.subline || 'Das geht nicht in Saal 1!'
+		}
+	} 
 }
 </script>
 
