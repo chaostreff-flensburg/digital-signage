@@ -1,16 +1,23 @@
 <template>
-	<section>
+	<div>
+
+		<layoutselect></layoutselect>
 		
 		<div class="wrapper">
 			<h1 contenteditable="true">{{heading}}</h1>
 			<p contenteditable="true">{{subline}}</p>
 		</div>
 
-	</section>
+	</div>
 </template>
 
 <script>
+import layoutselect from '@/components/layoutselect.vue';
+
 export default {
+	components: {
+		layoutselect
+	},
 	layout(context) {
 		return context.params.design;
 	},
@@ -41,12 +48,14 @@ body {
   padding: 0 !important;
 	overflow: hidden;
 
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+
 	-webkit-print-color-adjust:exact;
 }
 
 .wrapper {
 	position: absolute;
-	z-index: 100;
+	z-index: 50;
 
 	width: 100vw;
 	height: 100vh;
