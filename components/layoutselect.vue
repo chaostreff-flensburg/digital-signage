@@ -64,5 +64,11 @@ li {
 	&:hover {
 		color: hsl(205, 100, 60);
 	}
+	&.nuxt-link-active {
+		color: hsl(205, 100, 60);
+	}
+	&::before {
+			content: '» ';
+		}
 }
 </style>
