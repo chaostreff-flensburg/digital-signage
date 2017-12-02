@@ -7,8 +7,8 @@
 		</div>
 		<div id="wh-info" class="absolute">
 			34 Chaos Communication Congress<br>
-			27.-30. Dezember 2017<br>
-			Leipzig Messe
+			27. to 30. Dezember 2017<br>
+			Messe Leipzig
 		</div>
 	</div>
 </template>
