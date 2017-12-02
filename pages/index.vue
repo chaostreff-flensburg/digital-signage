@@ -1,6 +1,6 @@
 <template>
 	<section>
-		
+
 		<div class="wrapper">
 			<h1 contenteditable="true">Saal 1</h1>
 			<p contenteditable="true">Das geht nicht in Saal 1!</p>
@@ -15,27 +15,7 @@ export default {
 }
 </script>
 
-
 <style lang="scss">
-@media print {
-	@page {
-		size: A4 landscape;
-		overflow: hidden;
-		margin: 0cm;
-	}
-}
-
-body {
-	width: 100vw;
-	height: 100vh;
-
-	margin: 0 !important; 
-  padding: 0 !important;
-	overflow: hidden;
-
-	-webkit-print-color-adjust:exact;
-}
-
 .wrapper {
 	position: absolute;
 	z-index: 100;
