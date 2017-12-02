@@ -1,12 +1,15 @@
 {
   "name": "digitalsignage",
-  "version": "1.0.1",
+  "version": "2.0.1",
   "description": "Schilderwald as a Service",
   "scripts": {
     "dev": "nuxt",
     "generate": "nuxt generate"
   },
   "author": "Thorben Dittmar <roikiermedia@users.noreply.github.com>",
+  "contributors": [
+    "Alexander Wunschik <alex@wunschik.net>"
+  ],
   "license": "MIT",
   "dependencies": {
     "node-sass": "^4.5.3",

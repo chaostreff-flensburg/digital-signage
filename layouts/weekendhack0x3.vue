@@ -2,8 +2,8 @@
 	<div>
 		<nuxt/>
 
-		<img src="~/assets/img/weekendHack0x3/wh-logo.svg" alt="" id="wh-logo" class="absolute">
-		<img src="~/assets/img/weekendHack0x3/wh-info.svg" alt="" id="wh-info" class="absolute">
+		<img src="~/assets/weekendHack0x3/img/wh-logo.svg" alt="" id="wh-logo" class="absolute">
+		<img src="~/assets/weekendHack0x3/img/wh-info.svg" alt="" id="wh-info" class="absolute">
 	</div>
 </template>
 
@@ -13,7 +13,7 @@
 body {
 	font-family: 'Arvo', serif;
 
-	background-image: url('~/assets/img/weekendHack0x3/wh-waves.svg');
+	background-image: url('~/assets/weekendHack0x3/img/wh-waves.svg');
 	background-size: 125%;
 	background-position: center;
 }

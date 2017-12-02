@@ -1,0 +1,18 @@
+@media print {
+	@page {
+		size: A4 landscape;
+		overflow: hidden;
+		margin: 0cm;
+	}
+}
+
+body {
+	width: 100vw;
+	height: 100vh;
+
+	margin: 0 !important; 
+  padding: 0 !important;
+	overflow: hidden;
+
+	-webkit-print-color-adjust:exact;
+}
