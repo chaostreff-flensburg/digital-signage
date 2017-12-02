@@ -1,7 +1,7 @@
 <template>
 	<nav>
+		<span class="selector-title">Styles:</span>
 		<ul>
-			<span class="selector-title">Styles:</span>
 			<nuxt-link to="/34c3" tag="li">34c3</nuxt-link>
 			<nuxt-link to="/weekendHack0x3" tag="li">weekendHack0x3</nuxt-link>
 		</ul>
@@ -23,7 +23,7 @@ nav {
 	top: -1px;
 
 	padding-top: 16px;
-	padding-left: 16px;
+	padding-left: 24px;
 	padding-right: 42px;
 
 	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
@@ -52,7 +52,7 @@ ul {
 }
 
 li {
-	padding: 8px 0;
+	padding: 4px 0;
 
 	font-size: 14pt;
 
