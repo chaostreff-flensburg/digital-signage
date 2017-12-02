@@ -8,6 +8,9 @@ module.exports = {
   css: [
     '~/css/main.css'
   ],
+  router: {
+    base: '/digitalSignage/'
+  },
   generate: {
     dir: 'docs'
   }
