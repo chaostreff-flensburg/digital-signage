@@ -57,7 +57,9 @@ body {
 	position: absolute;
 	z-index: 50;
 
-	width: 100vw;
+	left: 2.5vw;
+
+	width: 95vw;
 	height: 100vh;
 
 	display: flex;
