@@ -4,8 +4,8 @@
 		<layoutselect></layoutselect>
 		
 		<div class="wrapper">
-			<h1 contenteditable="true">{{heading}}</h1>
-			<p contenteditable="true">{{subline}}</p>
+			<h1 contenteditable="true" class="heading">{{heading}}</h1>
+			<p contenteditable="true" class="subline">{{subline}}</p>
 		</div>
 
 	</div>
