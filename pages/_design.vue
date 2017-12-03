@@ -8,14 +8,18 @@
 			<p contenteditable="true" class="subline">{{subline}}</p>
 		</div>
 
+		<infotoast></infotoast>
+
 	</div>
 </template>
 
 <script>
+import infotoast from '@/components/infotoast.vue';
 import layoutselect from '@/components/layoutselect.vue';
 
 export default {
 	components: {
+		infotoast,
 		layoutselect
 	},
 	layout(context) {
