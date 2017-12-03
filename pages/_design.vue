@@ -27,8 +27,8 @@ export default {
 	},
 	asyncData(context) {
 		return {
-			heading: context.query.heading || 'Saal 1',
-			subline: context.query.subline || 'Das geht nicht in Saal 1!'
+			heading: context.query.heading || `You are beautiful`,
+			subline: context.query.subline || `Let's change the world!`
 		}
 	} 
 }
