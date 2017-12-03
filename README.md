@@ -14,6 +14,14 @@ npm run dev
 open http://localhost:3000/
 ```
 
+## Creating a new layout / design
+
+Layouts are vue-components located in the `layouts` folder. Each layout needs a `<nuxt/>` tag where the page is rendered and a uniquely classed section. Do not try to style the `body` in your layout, always start with your layout section, or else you will get weird style bugs when changing routes. For a quick start, just copy & modify an already existing layout. Do not forget to put a link to your design in the `components/layoutselect.vue` component.  
+When you are finished styling your layout, deploy your own version of digitalSignage or create a pull-request here, if you think other people would like to use your design.  
+Also please consider creating designs with a light background. [Printer ink is more expensive than human blood.](https://consumerist.com/2009/12/29/hp-ink-costs-more-than-human-blood/)
+  
+!["Please think about the enviroment, before printing this sign." printed on a paper sign.](https://startup-flensburg.de/app/uploads/2017/11/Schild.gif)
+
 ## Deployment
 
 Run `npm run generate`, wait for the build to finish and push to GitHub.
