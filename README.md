@@ -20,7 +20,6 @@ Layouts are vue-components located in the `layouts` folder. Each layout needs a 
 When you are finished styling your layout, deploy your own version of digitalSignage or create a pull-request here, if you think other people would like to use your design.  
 Also please consider creating designs with a light background. [Printer ink is more expensive than human blood.](https://consumerist.com/2009/12/29/hp-ink-costs-more-than-human-blood/)
   
-!["Please think about the enviroment, before printing this sign." printed on a paper sign.](https://startup-flensburg.de/app/uploads/2017/11/Schild.gif)
 
 ## Deployment
 
