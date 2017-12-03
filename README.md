@@ -17,7 +17,9 @@ open http://localhost:3000/
 ## Creating a new layout / design
 
 Layouts are vue-components located in the `layouts` folder. Each layout needs a `<nuxt/>` tag where the page is rendered and a uniquely classed section. Do not try to style the `body` in your layout, always start with your layout section, or else you will get weird style bugs when changing routes. For a quick start, just copy & modify an already existing layout. Do not forget to put a link to your design in the `components/layoutselect.vue` component.  
+All elements should be positioned `absolute`. We recommend using centimeters instead of pixels for positioning. Designing for printers in a browser is a strange job.  
 When you are finished styling your layout, deploy your own version of digitalSignage or create a pull-request here, if you think other people would like to use your design.  
+
 Also please consider creating designs with a light background. [Printer ink is more expensive than human blood.](https://consumerist.com/2009/12/29/hp-ink-costs-more-than-human-blood/)
   
 
