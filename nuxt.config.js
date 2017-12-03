@@ -7,6 +7,11 @@ module.exports = {
     ]
   },
   generate: {
-    dir: 'docs'
+    dir: 'docs',
+    routes: [
+      '/',
+      '/34c3',
+      '/weekendHack0x3'
+    ]
   }
 }
