@@ -19,7 +19,7 @@
 	
 	color: rgb(164, 28, 49);
 
-	background-image: url('~/assets/img/34c3/designguide-bg.png');
+	background-image: url('~/assets/img/34c3/Phasenpruefer.svg');
 	background-size: cover;
 	background-position: center;
 
