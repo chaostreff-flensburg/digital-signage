@@ -17,7 +17,7 @@
 	margin: 0 !important; 
 	padding: 0 !important;
 	
-	color: rgb(164, 28, 49);
+	color: rgb(0, 0, 0);
 
 	background-image: url('~/assets/img/34c3/Phasenpruefer.svg');
 	background-size: cover;
@@ -28,8 +28,8 @@
 		font-size: 110pt;
 	}
 	.subline {
-		font-family: 'Unna', serif;
-		text-transform: lowercase;
+		font-family: 'three_the_hard_wayregular';
+		text-transform: uppercase;
 
 		&::before {
 			content: '»';
@@ -42,7 +42,7 @@
 
 .absolute {
 	position: absolute;
-	height: 2.5cm;
+	height: 4cm;
 	width: auto;
 }
 
