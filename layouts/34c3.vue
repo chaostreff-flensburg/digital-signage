@@ -3,6 +3,7 @@
 		<nuxt/>
 
 		<img src="~/assets/img/34c3/34c3-tuwat.svg" alt="" id="tuwat" class="absolute">
+		<img src="~/assets/img/34c3/fill.svg" alt="" id="fill" class="fill">
 	</section>
 </template>
 
@@ -35,12 +36,20 @@
 
 .absolute {
 	position: absolute;
+	height: 6cm;
+	width: auto;
+}
+.fill {
+	position: absolute;
 	height: 4cm;
 	width: auto;
 }
-
 #tuwat {
-	bottom: 0.75cm;
-	right: 1cm;
+	bottom: 1.5cm;
+	right: 2cm;
+}
+#fill {
+	top: 1.5cm;
+	left: 2cm;
 }
 </style>
