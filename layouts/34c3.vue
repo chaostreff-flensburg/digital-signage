@@ -30,13 +30,6 @@
 	.subline {
 		font-family: 'three_the_hard_wayregular';
 		text-transform: uppercase;
-
-		&::before {
-			content: '»';
-		}
-		&::after {
-			content: '«';
-		}
 	}
 }
 
