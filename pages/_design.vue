@@ -69,11 +69,10 @@ body {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	align-items: center;
 }
 
 [contenteditable="true"] {
-	width: 100% !important;
-
 	text-align: center;
 }
 

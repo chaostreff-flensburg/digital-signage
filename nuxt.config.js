@@ -11,7 +11,8 @@ module.exports = {
     routes: [
       '/',
       '/34c3',
-      '/weekendHack0x3'
+      '/weekendHack0x3',
+      '/mikrogravitation2018'
     ]
   }
 }
