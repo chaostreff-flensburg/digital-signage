@@ -30,6 +30,7 @@ nav {
 	padding-left: 24px;
 	padding-right: 42px;
 
+	color: black;
 	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
 
 	border-bottom-left-radius: 3px;
