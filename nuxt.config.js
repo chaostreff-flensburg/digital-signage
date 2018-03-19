@@ -13,7 +13,8 @@ module.exports = {
       '/34c3',
       '/weekendHack0x3',
       '/mikrogravitation2018',
-      '/hafenbutze18'
+      '/hafenbutze18',
+      '/ruetueta'
     ]
   }
 }
