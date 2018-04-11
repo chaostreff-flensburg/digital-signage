@@ -14,7 +14,8 @@ module.exports = {
       '/weekendHack0x3',
       '/mikrogravitation2018',
       '/hafenbutze18',
-      '/ruetueta'
+      '/ruetueta',
+      '/kliemannsland'
     ]
   }
 }
