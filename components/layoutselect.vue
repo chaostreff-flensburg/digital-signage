@@ -5,7 +5,6 @@
 			<nuxt-link to="/34c3" tag="li">34c3</nuxt-link>
 			<nuxt-link to="/mikrogravitation2018" tag="li">Mikrogravitation2018</nuxt-link>
 			<nuxt-link to="/weekendHack0x3" tag="li">weekendHack0x3</nuxt-link>
-			<nuxt-link to="/hafenbutze18" tag="li">hafenbutze18</nuxt-link>
 			<nuxt-link to="/ruetueta" tag="li">RüTüTa</nuxt-link>
 			<nuxt-link to="/kliemannsland" tag="li">Kliemannsland</nuxt-link>
 		</ul>
