@@ -9,7 +9,6 @@
   "author": "Thorben Dittmar <roikiermedia@users.noreply.github.com>",
   "license": "MIT",
   "dependencies": {
-    "npm": "^5.7.1",
     "nuxt": "^1.0.0-rc11"
   }
 }
