@@ -13,7 +13,7 @@
 	</nav>
 </template>
 
-<style lang="scss" scoped>
+<style scoped>
 @media print {
 	nav {
 		display: none;
@@ -43,9 +43,9 @@ nav {
 
 	transition: right 0.2s;
 
-	&:hover {
-		right: -1px;
-	}
+}
+nav:hover {
+	right: -1px;
 }
 
 ul {
@@ -70,15 +70,15 @@ li {
 
 	transition: color 0.2s;
 
-	&:hover {
-		color: hsl(205, 100, 60);
-	}
-	&.nuxt-link-active {
-		color: hsl(205, 100, 60);
-	}
-	&::before {
-			content: '» ';
-		}
+}
+.selector-title:hover {
+	color: hsl(205, 100, 60);
+}
+.selector-title.nuxt-link-active {
+	color: hsl(205, 100, 60);
+}
+.selector-title::before {
+		content: '» ';
 }
 
 p {

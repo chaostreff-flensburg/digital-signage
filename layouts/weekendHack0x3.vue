@@ -7,7 +7,7 @@
 	</section>
 </template>
 
-<style lang="scss">
+<style>
 @import url(https://fonts.googleapis.com/css?family=Arvo:400,700);
 
 #weekendHack0x3 {

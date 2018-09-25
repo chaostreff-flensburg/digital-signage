@@ -6,7 +6,7 @@
 	</section>
 </template>
 
-<style lang="scss">
+<style>
 @import '../assets/fonts/34c3/stylesheet.scss';
 @import url('https://fonts.googleapis.com/css?family=Unna');
 
@@ -23,21 +23,21 @@
 	background-size: cover;
 	background-position: center;
 
-	.heading {
-		font-family: 'three_the_hard_wayregular';
-		font-size: 110pt;
-	}
-	.subline {
-		font-family: 'Unna', serif;
-		text-transform: lowercase;
+}
+.heading {
+	font-family: 'three_the_hard_wayregular';
+	font-size: 110pt;
+}
+.subline {
+	font-family: 'Unna', serif;
+	text-transform: lowercase;
 
-		&::before {
-			content: '»';
-		}
-		&::after {
-			content: '«';
-		}
-	}
+}
+.subline::before {
+	content: '»';
+}
+.subline::after {
+	content: '«';
 }
 
 .absolute {

@@ -9,7 +9,7 @@
 	</section>
 </template>
 
-<style lang="scss">
+<style>
 @import url(https://fonts.googleapis.com/css?family=Encode+Sans+Semi+Expanded:400,900);
 
 #mikrogravitation2018 {
@@ -26,21 +26,21 @@
 	background-size: 101%;
 	background-position: center;
 
-	h1, p[contenteditable="true"] {
-		background-color: #282A36;
-	}
-	h1 {
-		margin-bottom: 0.5cm;
-		padding: 8px 24px;
+}
+h1, p[contenteditable="true"] {
+	background-color: #282A36;
+}
+h1 {
+	margin-bottom: 0.5cm;
+	padding: 8px 24px;
 
-		font-size: 60pt;
-		font-weight: 900;
-		text-transform: uppercase;
-	}
-	p[contenteditable="true"] {
-		margin-top: 0;
-		padding: 12px 16px;
-	}
+	font-size: 60pt;
+	font-weight: 900;
+	text-transform: uppercase;
+}
+p[contenteditable="true"] {
+	margin-top: 0;
+	padding: 12px 16px;
 }
 
 .absolute {

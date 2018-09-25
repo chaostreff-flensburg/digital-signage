@@ -35,7 +35,7 @@ export default {
 </script>
 
 
-<style lang="scss">
+<style>
 @media print {
 	@page {
 		size: A4 landscape;

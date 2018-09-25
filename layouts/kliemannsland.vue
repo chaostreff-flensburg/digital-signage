@@ -8,7 +8,7 @@
 	</section>
 </template>
 
-<style lang="scss">
+<style>
 
 @import url('https://fonts.googleapis.com/css?family=Lato');
 @import url('https://fonts.googleapis.com/css?family=Vollkorn');

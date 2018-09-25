@@ -7,7 +7,7 @@
 	</section>
 </template>
 
-<style lang="scss">
+<style>
 
 #ruetueta {
 	width: 100vw;

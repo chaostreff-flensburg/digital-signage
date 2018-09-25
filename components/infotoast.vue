@@ -14,7 +14,7 @@ export default {
 </script>
 
 
-<style lang="scss" scoped>
+<style scoped>
 @media print {
 	aside {
 		display: none !important;

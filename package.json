@@ -9,9 +9,7 @@
   "author": "Thorben Dittmar <roikiermedia@users.noreply.github.com>",
   "license": "MIT",
   "dependencies": {
-    "node-sass": "^4.5.3",
     "npm": "^5.7.1",
-    "nuxt": "^1.0.0-rc11",
-    "sass-loader": "^6.0.6"
+    "nuxt": "^1.0.0-rc11"
   }
 }
