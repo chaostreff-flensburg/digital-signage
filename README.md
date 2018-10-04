@@ -25,4 +25,4 @@ Also please consider creating designs with a light background. [Printer ink is m
 
 ## Deployment
 
-Run `npm run generate`, wait for the build to finish and push to GitHub.
+Run `npm run generate`, wait for the build to finish and push to GitHub. New routes need to be added to `nuxt.config.js`to be properly generated.
