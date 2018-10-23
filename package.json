@@ -9,6 +9,6 @@
   "author": "Thorben Dittmar <roikiermedia@users.noreply.github.com>",
   "license": "MIT",
   "dependencies": {
-    "nuxt": "^1.4.2"
+    "nuxt": "^1.4.4"
   }
 }
