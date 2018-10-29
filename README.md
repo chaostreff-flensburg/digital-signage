@@ -20,7 +20,7 @@ Layouts are vue-components located in the `layouts` folder. Each layout needs a 
 All elements should be positioned `absolute`. We recommend using centimeters instead of pixels for positioning. Designing for printers in a browser is a strange job.  
 When you are finished styling your layout, deploy your own version of digitalSignage or create a pull-request here, if you think other people would like to use your design.  
 
-Also please consider creating designs with a light background. [Printer ink is more expensive than human blood.](https://consumerist.com/2009/12/29/hp-ink-costs-more-than-human-blood/)
+Also please consider creating designs with a light background. Printer ink is more expensive than human blood.
   
 
 ## Deployment
