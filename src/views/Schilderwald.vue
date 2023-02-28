@@ -16,6 +16,8 @@ if(route.query.config){
     .finally(()=>{
         loading.value = false
     })
+}else{
+    loading.value = false
 }
 </script>
 
