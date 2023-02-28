@@ -1,28 +1,58 @@
-# DigitalSignage
+# DigitalSignage - Version: schilderwald
+
 > Schilderwald as a Service
 
-## Usage
+Mit diesem innovativen SaaS Service können Sie einfach beschilderungen für Ihre Event erstellen. Probieren sich es doch einfach aus!
 
-Go to [http://schild.chaos.lol/](http://schild.chaos.lol/), type your words, print the page.   
-Set your printer to also print background images, if not already selected. Your sign wont look as nice without them. Also set the scale to 100% and print in landscape.
+Es muss einfach nur als query parameter einen pfad zu einem Order übergeben werden. Dort braucht es nur eine config.json sowie styles und images.
 
-## Development
+## Beispiel config.json
 
+```json
+{
+    "name": "hacksonthebeach",
+    "css": [
+        "style.css"
+    ],
+    "editable_elements": [
+        {"tag": "h1", "class": "heading", "default": "You are beautiful"},
+        {"tag": "h6", "class": "heading", "default": "You are beautiful"},
+        {"tag": "p", "class": "subline", "default": "Let's change the world"}
+    ],
+    "styling_elements": [
+        {"tag": "img", "alt": "", "class": "absolute", "id": "hotb-logo", "src": "https://raw.githubusercontent.com/chaostreff-flensburg/digitalSignage/master/assets/img/hacksonthebeach/wortmarke.svg"},
+        {"tag": "img", "alt": "","class": "absolute", "id": "hotb-schirm", "src": "https://raw.githubusercontent.com/chaostreff-flensburg/digitalSignage/master/assets/img/hacksonthebeach/loetschirm.svg"}
+    ]
+}
 ```
-npm i
+
+## Technical Stuff
+
+This project is using vue.js as frontend framework.
+
+This template should help get you started developing with Vue 3 in Vite.
+
+
+### Project Setup
+
+```sh
+npm install
+```
+
+### Compile and Hot-Reload for Development
+
+```sh
 npm run dev
-open http://localhost:3000/
 ```
 
-## Creating a new layout / design
+### Compile and Minify for Production
 
-Layouts are vue-components located in the `layouts` folder. Each layout needs a `<nuxt/>` tag where the page is rendered and a uniquely classed section. Do not try to style the `body` in your layout, always start with your layout section, or else you will get weird style bugs when changing routes. For a quick start, just copy & modify an already existing layout. Do not forget to put a link to your design in the `components/layoutselect.vue` component.  
-All elements should be positioned `absolute`. We recommend using centimeters instead of pixels for positioning. Designing for printers in a browser is a strange job.  
-When you are finished styling your layout, deploy your own version of digitalSignage or create a pull-request here, if you think other people would like to use your design.  
+```sh
+npm run build
+```
 
-Also please consider creating designs with a light background. [Printer ink is more expensive than human blood.](https://consumerist.com/2009/12/29/hp-ink-costs-more-than-human-blood/)
-  
+### Lint with [ESLint](https://eslint.org/)
 
-## Deployment
-
-Run `npm run generate`, wait for the build to finish and push to GitHub. New routes need to be added to `nuxt.config.js`to be properly generated.
+```sh
+npm run lint
+```
