@@ -53,10 +53,19 @@ if(route.query.config){
         <template v-if="loading">
             <div id="loading"></div>
         </template>
-        <template v-else>
-            Es ist ein Fehler aufgetreten. Check ob die Config URL richtig ist!<br/>
-            TODO: Link zu einem FAQ/Readme einfügen
-        </template>
+        <div class="error-notification" v-else>
+            <h1>Es ist ein Fehler aufgetreten.</h1>
+            <p>
+                Check ob die Config URL richtig ist!<br/>
+                TODO: Link zu einem FAQ/Readme einfügen
+            </p>
+            <div>
+                <h3>Examples</h3>
+                <ul>
+                    <li><a href="/?config=example1">Example1</a></li>
+                </ul>
+            </div>
+        </div>
     </div>
 </template>
 
@@ -73,7 +82,7 @@ body {
 	width: 100vw;
 	height: 100vh;
 	margin: 0 !important; 
-  padding: 0 !important;
+    padding: 0 !important;
 	overflow: hidden;
 	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
 	-webkit-print-color-adjust:exact;
@@ -108,6 +117,9 @@ p {
   align-items: center;
   justify-content: center;
   height: 100vh;
+}
+.error-notification{
+    padding: 2rem;
 }
 #loading {
   display: inline-block;

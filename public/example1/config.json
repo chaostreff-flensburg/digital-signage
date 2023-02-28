@@ -5,7 +5,6 @@
     ],
     "editable_elements": [
         {"tag": "h1", "class": "heading", "default": "You are beautiful"},
-        {"tag": "h6", "class": "heading", "default": "You are beautiful"},
         {"tag": "p", "class": "subline", "default": "Let's change the world"}
     ],
     "styling_elements": [

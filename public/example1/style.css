@@ -1,0 +1,39 @@
+/* arvo-regular - latin */
+@font-face {
+	font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+	font-family: 'Arvo';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../arvo-v20-latin-regular.eot'); /* IE9 Compat Modes */
+	src: url('../arvo-v20-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		 url('../arvo-v20-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+		 url('../arvo-v20-latin-regular.woff') format('woff'), /* Modern Browsers */
+		 url('../arvo-v20-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+		 url('../arvo-v20-latin-regular.svg#Arvo') format('svg'); /* Legacy iOS */
+  }
+#hacksonthebeach {
+	width: 100vw;
+	height: 100vh;
+	margin: 0 !important; 
+  padding: 0 !important;
+	font-family: 'Arvo', serif;
+	background-image: url('https://raw.githubusercontent.com/chaostreff-flensburg/digitalSignage/master/assets/img/hacksonthebeach/flagoutline.svg');
+	background-size: 210%;
+	background-position: center;
+	background-position-y: 53.5%;
+}
+.absolute {
+	position: absolute;
+	height: 2.5cm;
+	width: auto;
+}
+#hotb-logo {
+	bottom: 0.75cm;
+	left: 1cm;
+	height: 15%;
+}
+#hotb-schirm {
+	bottom: 0.75cm;
+	right: 1cm;
+	height: 22.5%;
+}
