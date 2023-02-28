@@ -32,7 +32,7 @@ jobs:
       - name: Build and push app
         uses: docker/build-push-action@v3
         with:
-          context: api
+          context: .
           file: Dockerfile
           push: true
-          tags: "ghcr.io/${{ github.repository }}/app:latest"
+          tags: "ghcr.io/${{ github.repository }}:latest"
