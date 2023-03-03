@@ -1,4 +1,4 @@
-name: Build and push image
+name: Build, push and deploy image
 
 on:
   push:
@@ -36,3 +36,11 @@ jobs:
           file: Dockerfile
           push: true
           tags: "ghcr.io/${{ github.repository }}:latest"
+
+      - name: pull and start new image
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USER_NAME }}
+          key: ${{ secrets.PRIVATE_KEY}}
+          script: cd saas && docker compose pull && docker compose up -d
