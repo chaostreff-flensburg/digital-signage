@@ -63,7 +63,7 @@ if(route.query.config){
                 <h3>Examples</h3>
                 <ul>
                     <li><a href="/?config=example1">Example1</a></li>
-                    <li><a href="/?config=eh20">#eh22 easterhegg 2023</a></li>
+                    <li><a href="/?config=eh20">#eh20 easterhegg 2023</a></li>
                 </ul>
             </div>
         </div>
