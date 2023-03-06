@@ -7,7 +7,7 @@
         {"tag": "p", "class": "subline", "default": "Let's change the world"},
         {"tag": "h1", "class": "heading", "default": "Back to the roots"},
         {"tag": "h1", "class": "heading", "default": "🐰"},
-        {"tag": "p", "class": "heading", "default": "#EH22"}
+        {"tag": "p", "class": "heading", "default": "#EH20"}
     ],
     "styling_elements": [
         {"tag": "img", "alt": "", "class": "absolute", "id": "logo", "src": "https://eh20.easterhegg.eu/lib/exe/fetch.php?cache=&media=eh20logo-2023.png"}
