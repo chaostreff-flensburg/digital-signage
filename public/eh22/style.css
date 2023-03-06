@@ -1,0 +1,35 @@
+/* oswald-200 - latin */
+@font-face {
+	font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+	font-family: 'Oswald';
+	font-style: normal;
+	font-weight: 200;
+	src: url('./oswald-v49-latin/oswald-v49-latin-200.eot'); /* IE9 Compat Modes */
+	src: url('./oswald-v49-latin/oswald-v49-latin-200.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		 url('./oswald-v49-latin/oswald-v49-latin-200.woff2') format('woff2'), /* Super Modern Browsers */
+		 url('./oswald-v49-latin/oswald-v49-latin-200.woff') format('woff'), /* Modern Browsers */
+		 url('./oswald-v49-latin/oswald-v49-latin-200.ttf') format('truetype'), /* Safari, Android, iOS */
+		 url('./oswald-v49-latin/oswald-v49-latin-200.svg#Oswald') format('svg'); /* Legacy iOS */
+  }
+body{
+	font-family: 'Oswald', arial;
+}
+h1{
+	font-weight: 200;
+}
+#examle2-eh22 {
+	width: 100vw;
+	height: 100vh;
+	margin: 0 !important; 
+  	padding: 0 !important;
+}
+.absolute {
+	position: absolute;
+	height: 2.5cm;
+	width: auto;
+}
+#logo {
+	bottom: 0.75cm;
+	left: 1cm;
+	height: 45%;
+}
