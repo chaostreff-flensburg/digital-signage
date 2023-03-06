@@ -57,12 +57,13 @@ if(route.query.config){
             <h1>Es ist ein Fehler aufgetreten.</h1>
             <p>
                 Check ob die Config URL richtig ist!<br/>
-                TODO: Link zu einem FAQ/Readme einfügen
+                <a href="https://github.com/chaostreff-flensburg/digitalSignage">Git Repo and README</a>
             </p>
             <div>
                 <h3>Examples</h3>
                 <ul>
                     <li><a href="/?config=example1">Example1</a></li>
+                    <li><a href="/?config=eh20">#eh22 easterhegg 2023</a></li>
                 </ul>
             </div>
         </div>
