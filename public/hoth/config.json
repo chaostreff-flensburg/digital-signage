@@ -1,0 +1,16 @@
+{
+    "name": "hoth",
+    "css": [
+        "style.css"
+    ],
+    "editable_elements": [
+        {"tag": "span", "class": "", "default": "Sønderborg, DK"},
+        {"tag": "h1", "class": "heading", "default": "You are beautiful"},
+        {"tag": "h1", "class": "heading", "default": "Let's change the world"},
+        {"tag": "span", "class": "", "default": "#hoth23"}
+    ],
+    "styling_elements": [
+        {"tag": "img", "alt": "Hacks on the Habour", "class": "absolute", "id": "text-logo", "src": "./hoth/hoth-logo.png"},
+        {"tag": "img", "alt": "Schräge Rakäde", "class": "absolute", "id": "rakede-logo", "src": "./hoth/rakede-schraeg.svg"}
+    ]
+}

@@ -29,12 +29,13 @@ if(route.query.config){
         <div class="wrapper">
             <template v-for="(element, index) in config.editable_elements" :key="index">
                 <h1 v-if="element.tag === 'h1'" contenteditable="true" :class="element.class">{{ element.default }}</h1>
-                <h2 v-if="element.tag === 'h2'" contenteditable="true" :class="element.class">{{ element.default }}</h2>
-                <h3 v-if="element.tag === 'h3'" contenteditable="true" :class="element.class">{{ element.default }}</h3>
-                <h4 v-if="element.tag === 'h4'" contenteditable="true" :class="element.class">{{ element.default }}</h4>
-                <h5 v-if="element.tag === 'h5'" contenteditable="true" :class="element.class">{{ element.default }}</h5>
-                <h6 v-if="element.tag === 'h6'" contenteditable="true" :class="element.class">{{ element.default }}</h6>
-                <p v-if="element.tag === 'p'" contenteditable="true" :class="element.class">{{ element.default }}</p>
+                <h2 v-else-if="element.tag === 'h2'" contenteditable="true" :class="element.class">{{ element.default }}</h2>
+                <h3 v-else-if="element.tag === 'h3'" contenteditable="true" :class="element.class">{{ element.default }}</h3>
+                <h4 v-else-if="element.tag === 'h4'" contenteditable="true" :class="element.class">{{ element.default }}</h4>
+                <h5 v-else-if="element.tag === 'h5'" contenteditable="true" :class="element.class">{{ element.default }}</h5>
+                <h6 v-else-if="element.tag === 'h6'" contenteditable="true" :class="element.class">{{ element.default }}</h6>
+                <p v-else-if="element.tag === 'p'" contenteditable="true" :class="element.class">{{ element.default }}</p>
+                <p v-else-if="element.tag === 'span'" contenteditable="true" :class="element.class">{{ element.default }}</p>
             </template>
         </div>
         <section :id="config.name">
@@ -63,6 +64,7 @@ if(route.query.config){
                 <h3>Examples</h3>
                 <ul>
                     <li><a href="/?config=example1">Example1</a></li>
+                    <li><a href="/?config=hoth">hoth.info Hacks on the Habour</a></li>
                     <li><a href="/?config=eh20">#eh20 easterhegg 2023</a></li>
                 </ul>
             </div>

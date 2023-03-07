@@ -1,0 +1,73 @@
+/* space-mono-regular - latin */
+@font-face {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src:
+         url('./space-mono-v4-latin/space-mono-v4-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('./space-mono-v4-latin/space-mono-v4-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* space-mono-italic - latin */
+  @font-face {
+    font-family: 'Space Mono';
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src:
+         url('./space-mono-v4-latin/space-mono-v4-latin-italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('./space-mono-v4-latin/space-mono-v4-latin-italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* space-mono-700 - latin */
+  @font-face {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src:
+         url('./space-mono-v4-latin/space-mono-v4-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('./space-mono-v4-latin/space-mono-v4-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* space-mono-700italic - latin */
+  @font-face {
+    font-family: 'Space Mono';
+    font-style: italic;
+    font-weight: 700;
+    font-display: swap;
+    src:
+         url('./space-mono-v4-latin/space-mono-v4-latin-700italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('./space-mono-v4-latin/space-mono-v4-latin-700italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+body{
+    font-family: 'Space Mono', arial;
+}
+h1{
+	font-weight: 700;
+    font-size: 65px;
+}
+h1:first-of-type{
+    color: #e73746;
+}
+#examle2-eh22 {
+	width: 100vw;
+	height: 100vh;
+	margin: 0 !important; 
+  	padding: 0 !important;
+}
+.absolute {
+	position: absolute;
+	height: 2.5cm;
+	width: auto;
+}
+#text-logo {
+	bottom: 0.75cm;
+	left: 1cm;
+	height: 4cm;
+}
+#rakede-logo {
+    top: 0cm;
+    right: 0cm;
+    height: 8cm;
+    transform: rotate(310deg);
+}
