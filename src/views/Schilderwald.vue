@@ -7,6 +7,8 @@ import axios from 'axios'
 const route = useRoute()
 let config = ref(null)
 let loading = ref(true)
+let urlValues = (route.query.values ? route.query.values.split(';') : false)
+console.log(urlValues)
 if(route.query.config){
     axios.get(`${route.query.config}/config.json`)
     .then((response) => {
@@ -29,14 +31,14 @@ if(route.query.config){
         </template>
         <div class="wrapper">
             <template v-for="(element, index) in config.editable_elements" :key="index">
-                <h1 v-if="element.tag === 'h1'" contenteditable="true" :class="element.class">{{ element.default }}</h1>
-                <h2 v-else-if="element.tag === 'h2'" contenteditable="true" :class="element.class">{{ element.default }}</h2>
-                <h3 v-else-if="element.tag === 'h3'" contenteditable="true" :class="element.class">{{ element.default }}</h3>
-                <h4 v-else-if="element.tag === 'h4'" contenteditable="true" :class="element.class">{{ element.default }}</h4>
-                <h5 v-else-if="element.tag === 'h5'" contenteditable="true" :class="element.class">{{ element.default }}</h5>
-                <h6 v-else-if="element.tag === 'h6'" contenteditable="true" :class="element.class">{{ element.default }}</h6>
-                <p v-else-if="element.tag === 'p'" contenteditable="true" :class="element.class">{{ element.default }}</p>
-                <p v-else-if="element.tag === 'span'" contenteditable="true" :class="element.class">{{ element.default }}</p>
+                <h1 v-if="element.tag === 'h1'" contenteditable="true" :class="element.class">{{ urlValues[index] || element.default }}</h1>
+                <h2 v-else-if="element.tag === 'h2'" contenteditable="true" :class="element.class">{{ urlValues[index] || element.default }}</h2>
+                <h3 v-else-if="element.tag === 'h3'" contenteditable="true" :class="element.class">{{ urlValues[index] || element.default }}</h3>
+                <h4 v-else-if="element.tag === 'h4'" contenteditable="true" :class="element.class">{{ urlValues[index] || element.default }}</h4>
+                <h5 v-else-if="element.tag === 'h5'" contenteditable="true" :class="element.class">{{ urlValues[index] || element.default }}</h5>
+                <h6 v-else-if="element.tag === 'h6'" contenteditable="true" :class="element.class">{{ urlValues[index] || element.default }}</h6>
+                <p v-else-if="element.tag === 'p'" contenteditable="true" :class="element.class">{{ urlValues[index] || element.default }}</p>
+                <p v-else-if="element.tag === 'span'" contenteditable="true" :class="element.class">{{ urlValues[index] || element.default }}</p>
             </template>
         </div>
         <section :id="config.name">

@@ -29,6 +29,11 @@ Es muss einfach nur als query parameter einen pfad zu einem Order übergeben wer
 .css Dateien können nicht direkt von Git(hub) im raw modus geladen werden. Diese haben den falschen mime type. Dafür muss dann [https://raw.githack.com/](https://raw.githack.com/) benutzt werden. Z.B.:
 `https://raw.githack.com/chaos-jetzt/schild-vorlagen/main/chaos_jetzt_light/style.css`
 
+### Default Werte überschreiben
+In `config.json` werden mit **editable_elements** die HTML Elmente konfiguriert welche angezeigt werden. Es kann ein default value übergeben werden. Diese kann aber über den Query Parameter `values` überschrieben werden. Z.B.: 
+`?config=https://raw.githubusercontent.com/chaos-jetzt/schild-vorlagen/main/chaos_jetzt_light/&values=eins;zwei;drei`
+Schreibt in die ersten drei Input Felder den Wert eins, zwei und drei. Das vierte Input feld behält seinen default value. Die Separierung erfolgt über das `;`. 
+
 ## Technical Stuff
 
 This project is using vue.js as frontend framework.
