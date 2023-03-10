@@ -12,7 +12,7 @@ Es muss einfach nur als query parameter einen pfad zu einem Order übergeben wer
 {
     "name": "hacksonthebeach",
     "css": [
-        "style.css"
+        "/style.css"
     ],
     "editable_elements": [
         {"tag": "h1", "class": "heading", "default": "You are beautiful"},
@@ -25,6 +25,9 @@ Es muss einfach nur als query parameter einen pfad zu einem Order übergeben wer
     ]
 }
 ```
+### Beispiel für CSS Datei von Git(Hub)
+.css Dateien können nicht direkt von Git(hub) im raw modus geladen werden. Diese haben den falschen mime type. Dafür muss dann [https://raw.githack.com/](https://raw.githack.com/) benutzt werden. Z.B.:
+`https://raw.githack.com/chaos-jetzt/schild-vorlagen/main/chaos_jetzt_light/style.css`
 
 ## Technical Stuff
 
