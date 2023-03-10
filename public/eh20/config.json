@@ -1,7 +1,7 @@
 {
     "name": "examle2-eh22",
     "css": [
-        "style.css"
+        "/style.css"
     ],
     "editable_elements": [
         {"tag": "p", "class": "subline", "default": "Let's change the world"},

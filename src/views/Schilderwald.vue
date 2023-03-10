@@ -1,6 +1,7 @@
 <script setup>
 import { useRoute } from 'vue-router'
 import { ref } from 'vue'
+import ErrorInfoVue from '../components/ErrorInfo.vue';
 
 import axios from 'axios'
 const route = useRoute()
@@ -24,7 +25,7 @@ if(route.query.config){
 <template>
     <template v-if="config">
         <template v-for="(style, index) in config.css" :key="index">
-            <link rel="stylesheet" :href="`${route.query.config}/${style}`">
+            <link rel="stylesheet" :href="`${(style.includes('http') ? '' : route.query.config)}${style}`">
         </template>
         <div class="wrapper">
             <template v-for="(element, index) in config.editable_elements" :key="index">
@@ -54,21 +55,7 @@ if(route.query.config){
         <template v-if="loading">
             <div id="loading"></div>
         </template>
-        <div class="error-notification" v-else>
-            <h1>Es ist ein Fehler aufgetreten.</h1>
-            <p>
-                Check ob die Config URL richtig ist!<br/>
-                <a href="https://github.com/chaostreff-flensburg/digitalSignage">Git Repo and README</a>
-            </p>
-            <div>
-                <h3>Examples</h3>
-                <ul>
-                    <li><a href="/?config=example1">Example1</a></li>
-                    <li><a href="/?config=hoth">hoth.info Hacks on the Habour</a></li>
-                    <li><a href="/?config=eh20">#eh20 easterhegg 2023</a></li>
-                </ul>
-            </div>
-        </div>
+        <ErrorInfoVue v-else/>
     </div>
 </template>
 
@@ -108,7 +95,7 @@ body {
 h1 {
 	margin: 0;
 	margin-bottom: 0.5cm;
-	font-size: 90pt;
+	font-size: 75pt;
 }
 p {
 	margin: 0;

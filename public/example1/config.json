@@ -1,7 +1,7 @@
 {
     "name": "hacksonthebeach",
     "css": [
-        "style.css"
+        "/style.css"
     ],
     "editable_elements": [
         {"tag": "h1", "class": "heading", "default": "You are beautiful"},

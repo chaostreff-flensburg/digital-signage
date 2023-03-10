@@ -1,7 +1,7 @@
 {
     "name": "hoth",
     "css": [
-        "style.css"
+        "/style.css"
     ],
     "editable_elements": [
         {"tag": "span", "class": "", "default": "Sønderborg, DK"},
