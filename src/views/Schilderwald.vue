@@ -2,6 +2,7 @@
 import { useRoute } from 'vue-router'
 import { ref } from 'vue'
 import ErrorInfoVue from '../components/ErrorInfo.vue';
+import QrcodeVue from 'qrcode.vue'
 
 import axios from 'axios'
 const route = useRoute()
@@ -39,6 +40,7 @@ if(route.query.config){
                 <h6 v-else-if="element.tag === 'h6'" contenteditable="true" :class="element.class">{{ urlValues[index] || element.default }}</h6>
                 <p v-else-if="element.tag === 'p'" contenteditable="true" :class="element.class">{{ urlValues[index] || element.default }}</p>
                 <p v-else-if="element.tag === 'span'" contenteditable="true" :class="element.class">{{ urlValues[index] || element.default }}</p>
+                <qrcode-vue v-if="element.tag === 'a'" :value="element.default" :size="element.size" :class="element.class"></qrcode-vue>
             </template>
         </div>
         <section :id="config.name">
