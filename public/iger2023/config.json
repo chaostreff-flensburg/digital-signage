@@ -1,0 +1,15 @@
+{
+    "name": "iger2023",
+    "css": [
+        "/style.css"
+    ],
+    "editable_elements": [
+        {"tag": "h1", "class": "heading", "default": "You are beautiful"},
+        {"tag": "h2", "class": "heading", "default": "Let's change the world"}
+    ],
+    "styling_elements": [
+        {"tag": "img", "alt": "Fairydust", "class": "image", "id": "fairydust", "src": "./iger2023/fairydust.svg"},
+        {"tag": "img", "alt": "Globe", "class": "image", "id": "globe", "src": "./iger2023/globe.svg"},
+        {"tag": "img", "alt": "IGER", "class": "image", "id": "logo", "src": "./iger2023/logo.svg"}
+    ]
+}
