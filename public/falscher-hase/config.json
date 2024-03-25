@@ -10,6 +10,6 @@
         {"tag": "p", "class": "heading", "default": "Follow the wrong rabbit."}
     ],
     "styling_elements": [
-        {"tag": "img", "alt": "", "class": "absolute", "id": "logo", "src": "/falscher-hase-logo.webp"}
+        {"tag": "img", "alt": "", "class": "absolute", "id": "logo", "src": "/falscher-hase/falscher-hase-logo.webp"}
     ]
 }
