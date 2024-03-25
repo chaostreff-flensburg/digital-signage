@@ -1,0 +1,47 @@
+/* sixtyfour-regular - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Sixtyfour';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/sixtyfour-v1-latin-regular.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* nunito-sans-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/nunito-sans-v15-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+body{
+	font-family: 'Nunito Sans', arial;
+}
+.heading-extra{
+	font-family: 'Sixtyfour';
+}
+p{
+	font-size: 55px;
+	margin: 50px 0px;
+}
+
+#falscher-hase {
+	width: 100vw;
+	height: 100vh;
+	margin: 0 !important; 
+  	padding: 0 !important;
+}
+.absolute {
+	position: absolute;
+	height: 2.5cm;
+	width: auto;
+}
+#logo {
+	bottom: 0.0cm;
+	left: 0.0cm;
+	height: 35%;
+}

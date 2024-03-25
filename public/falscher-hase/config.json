@@ -1,0 +1,15 @@
+{
+    "name": "falscher-hase",
+    "css": [
+        "/style.css"
+    ],
+    "editable_elements": [
+        {"tag": "p", "class": "subline", "default": "You are beautiful"},
+        {"tag": "h1", "class": "heading-extra", "default": "Let's change the world"},
+        {"tag": "h1", "class": "heading", "default": "🐰"},
+        {"tag": "p", "class": "heading", "default": "Follow the wrong rabbit."}
+    ],
+    "styling_elements": [
+        {"tag": "img", "alt": "", "class": "absolute", "id": "logo", "src": "/falscher-hase-logo.webp"}
+    ]
+}
