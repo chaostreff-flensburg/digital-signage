@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="apostrophemod" format="2">
+  <advance width="288"/>
+  <unicode hex="02BC"/>
+  <outline>
+    <component base="quotesingle"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-05-20 09:56:33 +0000</string>
+    </dict>
+  </lib>
+</glyph>

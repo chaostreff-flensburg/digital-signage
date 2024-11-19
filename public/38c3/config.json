@@ -1,0 +1,11 @@
+{
+    "name": "38c3",
+    "css": [
+        "/style.css"
+    ],
+    "editable_elements": [
+        {"tag": "p", "class": "subline", "default": "Let's change the world"},
+        {"tag": "h1", "class": "heading", "default": "You are beautiful"},
+        {"tag": "p", "class": "heading", "default": "#38C3"}
+    ]
+}

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="sterling" format="2">
+  <advance width="847"/>
+  <outline>
+    <contour>
+      <point x="342" y="165" type="line" smooth="yes"/>
+      <point x="346" y="164"/>
+      <point x="353" y="161"/>
+      <point x="353" y="152" type="curve" smooth="yes"/>
+      <point x="353" y="146"/>
+      <point x="348" y="143"/>
+      <point x="342" y="141" type="curve" smooth="yes"/>
+      <point x="154" y="97" type="line" smooth="yes"/>
+      <point x="82" y="80"/>
+      <point x="52" y="123"/>
+      <point x="52" y="158" type="curve" smooth="yes"/>
+      <point x="52" y="217"/>
+      <point x="85" y="249"/>
+      <point x="154" y="226" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

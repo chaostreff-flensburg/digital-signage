@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'pilowlava';
+    src: URL('./fonts/pilowlava/Fonts/webfonts/Pilowlava-Regular.woff2')  format('woff2');
+}
+@font-face {
+    font-family: 'spacegrotesk';
+    src: URL('./fonts/space-grotesk-1.1.4/webfont/SpaceGrotesk-Regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'space-mono';
+    src: URL('./fonts/space-mono/SpaceMono-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'uncut-sans';
+    src: URL('./fonts/uncut-sans/Webfonts/UncutSans-Regular.woff2') format('woff2');
+}
+
+:root {
+    --color-primary: #FF5053;
+    --color-highlight: #FEF2FF;
+    --color-accent-a: #B2AAFF;
+    --color-accent-b: #6A5FDB;
+    --color-accent-c: #29114C;
+    --color-accent-d: #261A66;
+    --color-accent-e: #190B2F;
+    --color-background: #0F000A;
+}
+
+body{
+	font-family: 'Specifies', arial;
+	background-color: var(--color-background);
+	color: var(--color-primary);
+	background-image: url( './grid-12x12.svg' );
+	background-repeat: repeat;
+}
+h1{
+	font-weight: 200;
+	font-family: 'pilowlava';
+	margin-top: 50px !important;
+}
+.subline{
+	font-family: 'spacegrotesk';
+}
+p{
+	font-family: 'uncut-sans';
+}

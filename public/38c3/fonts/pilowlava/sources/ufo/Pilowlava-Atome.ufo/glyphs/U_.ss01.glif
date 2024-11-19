@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="U.ss01" format="2">
+  <advance width="792"/>
+  <anchor x="441" y="0" name="right"/>
+  <anchor x="394" y="760" name="top"/>
+  <outline>
+    <component base="U" xScale="-1" xOffset="792"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-05-20 09:56:33 +0000</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="O.2" format="2">
+  <advance width="829"/>
+  <anchor x="401" y="760" name="top"/>
+  <outline>
+    <component base="O" yScale="-1" yOffset="760"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-05-20 09:56:33 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>=|O</string>
+    </dict>
+  </lib>
+</glyph>

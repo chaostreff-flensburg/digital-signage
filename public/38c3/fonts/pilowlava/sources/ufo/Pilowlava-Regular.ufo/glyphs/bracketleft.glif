@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="bracketleft" format="2">
+  <advance width="450"/>
+  <unicode hex="005B"/>
+  <outline>
+    <contour>
+      <point x="337" y="40" type="curve" smooth="yes"/>
+      <point x="232" y="-5" type="line" smooth="yes"/>
+      <point x="182" y="-26"/>
+      <point x="152" y="-6"/>
+      <point x="171" y="48" type="curve" smooth="yes"/>
+      <point x="214" y="169"/>
+      <point x="212" y="576"/>
+      <point x="171" y="699" type="curve" smooth="yes"/>
+      <point x="152" y="753"/>
+      <point x="183" y="775"/>
+      <point x="232" y="752" type="curve" smooth="yes"/>
+      <point x="337" y="707" type="line" smooth="yes"/>
+      <point x="389" y="686"/>
+      <point x="430" y="727"/>
+      <point x="430" y="780" type="curve" smooth="yes"/>
+      <point x="430" y="853"/>
+      <point x="363" y="865"/>
+      <point x="285" y="838" type="curve" smooth="yes"/>
+      <point x="203" y="808" type="line" smooth="yes"/>
+      <point x="125" y="777"/>
+      <point x="80" y="719"/>
+      <point x="80" y="595" type="curve" smooth="yes"/>
+      <point x="80" y="152" type="line" smooth="yes"/>
+      <point x="80" y="28"/>
+      <point x="125" y="-30"/>
+      <point x="203" y="-61" type="curve" smooth="yes"/>
+      <point x="285" y="-91" type="line" smooth="yes"/>
+      <point x="363" y="-119"/>
+      <point x="430" y="-106"/>
+      <point x="430" y="-33" type="curve" smooth="yes"/>
+      <point x="430" y="20"/>
+      <point x="389" y="62"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-05-20 09:56:33 +0000</string>
+      <key>de.kutilek.scrawl.data</key>
+      <data>
+        iVBORw0KGgoAAAANSUhEUgAAAZAAAAJYCAAAAABph+9UAAAJ30lEQVR4Ae3Z
+        sW2TUQBFYTsgUQXBJoiGRRgnqzAHJQswAhSICQgtIkSCNlKKG+vYfC5/Wfdd
+        n/OuXfh4d/AqEbgqldHlcCAkdgsIISRGIFbHQgiJEYjVsRBCYgRidSyEkBiB
+        WB0LISRGIFbHQgiJEYjVsRBCYgRidSyEkBiBWB0LISRGIFbHQgiJEYjVsRBC
+        YgRidSyEkBiBWB0LISRGIFbHQgiJEYjVsRBCYgRidSyEkBiBWB0LISRGIFbH
+        QgiJEYjVsRBCYgRidSyEkBiBWB0LISRGIFbHQgiJEYjVsRBCYgRidSyEkBiB
+        WB0LISRGIFbHQgiJEYjVsRBCYgRidSyEkBiBWB0LISRGIFbHQgiJEYjVsRBC
+        YgRidSyEkBiBWB0LISRGIFbHQgiJEYjVsRBCYgRidSyEkBiBWB0LISRGIFbH
+        QgiJEYjVsRBCYgRidSyEkBiBWB0LISRGIFbHQgiJEYjVsRBCYgRidSyEkBiB
+        WB0LISRGIFbHQgiJEYjVsRBCYgRidSyEkBiBWB0LISRGIFbHQgiJEYjVsRBC
+        YgRidSyEkBiBWB0LISRGIFbHQgiJEYjVsRBCYgRidSyEkBiBWB0LISRGIFbH
+        QgiJEYjVsRBCYgRidSyEkBiBWB0LISRGIFbHQgiJEYjVsRBCYgRidSyEkBiB
+        WB0LISRGIFbHQgiJEYjVsRBCYgRidSyEkBiBWB0LISRGIFbHQgiJEYjVsRBC
+        YgRidSyEkBiBWB0LISRGIFbHQgiJEYjVsRBCYgRidSyEkBiBWB0LISRGIFbH
+        QgiJEYjVsRBCYgRidSyEkBiBWB0LISRGIFbHQgiJEYjVsRBCYgRidSyEkBiB
+        WB0LISRGIFbHQgiJEYjVsRBCYgRidSyEkBiBWB0LISRGIFbHQgiJEYjVsRBC
+        YgRidSyEkBiBWB0LISRGIFbHQgiJEYjVsRBCYgRidSyEkBiBWB0LISRGIFbH
+        QgiJEYjVsRBCYgRidSyEkBiBWB0LISRGIFbHQgiJEYjVsRBCYgRidSyEkBiB
+        WB0LISRGIFbHQgiJEYjVsRBCYgRidSyEkBiBWB0LISRGIFbHQgiJEYjVsRBC
+        YgRidSyEkBiBWB0LISRGIFbHQgiJEYjVsRBCYgRidSyEkBiBWB0LISRGIFbH
+        QgiJEYjVsRBCYgRidSyEkBiBWB0LISRGIFbHQgiJEYjVsRBCYgRidSyEkBiB
+        WB0LISRGIFbHQgiJEYjVsRBCYgRidSyEkBiBWB0LISRGIFbHQgiJEYjVsRBC
+        YgRidSyEkBiBWB0LISRGIFbHQgiJEYjVsRBCYgRidSyEkBiBWB0LISRGIFbH
+        QgiJEYjVsRBCYgRidSyEkBiBWB0LISRGIFbHQgiJEYjVsRBCYgRidSyEkBiB
+        WB0LISRGIFbHQgiJEYjVsRBCYgRidSyEkBiBWB0LISRGIFbHQgiJEYjVsRBC
+        YgRidSyEkBiBWB0LISRGIFbHQgiJEYjVsRBCYgRidSyEkBiBWB0LISRGIFbH
+        QgiJEYjVsRBCYgRidSyEkBiBWB0LISRGIFbHQgiJEYjVsRBCYgRidSyEkBiB
+        WB0LISRGIFbHQgiJEYjVsRBCYgRidSyEkBiBWB0LISRGIFbHQgiJEYjVsRBC
+        YgRidSyEkBiBWB0LISRGIFbHQgiJEYjVsRBCYgRidSyEkBiBWB0LISRGIFbH
+        QgiJEYjVsRBCYgRidSyEkBiBWB0LISRGIFbHQgiJEYjVsRBCYgRidSyEkBiB
+        WB0LISRGIFbHQgiJEYjVsRBCYgRidSyEkBiBWJ0zWciv9x9i4J6qzpkIuf34
+        6akIxHKPd7FCD9T5cX0mV+eB/o9+fC5CHv2Bzv2N/8m9Ox9NhMRcEUJIjECs
+        joUQEiMQq2MhhMQIxOpYCCExArE6FkJIjECsjoUQEiMQq2MhhMQIxOo8j/XZ
+        1fn25T7r9uXh9dtd5gmSLlbI53e//+J7cXNzAo6zIy72N+Tq+I/R8dkM1imC
+        Lvc/9e9f7/n9vD68enMKjrMzLlfIDNFpgy72K+u0GHenEbJjOUkiZIJxF0LI
+        juUkiZAJxl0IITuWkyRCJhh3IYTsWE6SCJlg3IUQsmM5SSJkgnEXQsiO5SSJ
+        kAnGXQghO5aTJEImGHchhOxYTpIImWDchRCyYzlJImSCcRdCyI7lJImQCcZd
+        CCE7lpMkQiYYdyGE7FhOkgiZYNyFELJjOUkiZIJxF0LIjuUkiZAJxl0IITuW
+        kyRCJhh3IYTsWE6SCJlg3IUQsmM5SSJkgnEXQsiO5SSJkAnGXQghO5aTJEIm
+        GHchhOxYTpIImWDchRCyYzlJImSCcRdCyI7lJImQCcZdCCE7lpMkQiYYdyGE
+        7FhOkgiZYNyFELJjOUkiZIJxF0LIjuUkiZAJxl0IITuWkyRCJhh3IYTsWE6S
+        CJlg3IUQsmM5SSJkgnEXQsiO5SSJkAnGXQghO5aTJEImGHchhOxYTpIImWDc
+        hRCyYzlJImSCcRdCyI7lJImQCcZdCCE7lpMkQiYYdyGE7FhOkgiZYNyFELJj
+        OUkiZIJxF0LIjuUkiZAJxl0IITuWkyRCJhh3IYTsWE6SCJlg3IUQsmM5SSJk
+        gnEXQsiO5SSJkAnGXQghO5aTJEImGHchhOxYTpIImWDchRCyYzlJImSCcRdC
+        yI7lJImQCcZdCCE7lpMkQiYYdyGE7FhOkgiZYNyFELJjOUkiZIJxF0LIjuUk
+        iZAJxl0IITuWkyRCJhh3IYTsWE6SCJlg3IUQsmM5SSJkgnEXQsiO5SSJkAnG
+        XQghO5aTJEImGHchhOxYTpIImWDchRCyYzlJImSCcRdCyI7lJImQCcZdCCE7
+        lpMkQiYYdyGE7FhOkgiZYNyFELJjOUkiZIJxF0LIjuUkiZAJxl0IITuWkyRC
+        Jhh3IYTsWE6SCJlg3IUQsmM5SSJkgnEXQsiO5SSJkAnGXQghO5aTJEImGHch
+        hOxYTpIImWDchRCyYzlJImSCcRdCyI7lJImQCcZdCCE7lpMkQiYYdyGE7FhO
+        kgiZYNyFELJjOUkiZIJxF0LIjuUkiZAJxl0IITuWkyRCJhh3IYTsWE6SCJlg
+        3IUQsmM5SSJkgnEXQsiO5SSJkAnGXQghO5aTJEImGHchhOxYTpIImWDchRCy
+        YzlJImSCcRdCyI7lJImQCcZdCCE7lpMkQiYYdyGE7FhOkgiZYNyFELJjOUki
+        ZIJxF0LIjuUkiZAJxl0IITuWkyRCJhh3IYTsWE6SCJlg3IUQsmM5SSJkgnEX
+        QsiO5SSJkAnGXQghO5aTJEImGHchhOxYTpIImWDchRCyYzlJImSCcRdCyI7l
+        JImQCcZdCCE7lpMkQiYYdyGE7FhOkgiZYNyFELJjOUkiZIJxF0LIjuUk6Q+g
+        khgHwuHE+wAAAABJRU5ErkJggg==
+      </data>
+      <key>de.kutilek.scrawl.rect</key>
+      <array>
+        <integer>-100</integer>
+        <integer>-300</integer>
+        <integer>800</integer>
+        <integer>1200</integer>
+      </array>
+      <key>de.kutilek.scrawl.size</key>
+      <integer>2</integer>
+      <key>de.kutilek.scrawl.unit</key>
+      <integer>2</integer>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

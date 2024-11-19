@@ -1,13 +1,10 @@
 <template>
     <div class="error-notification">
-        <h1>Es ist ein Fehler aufgetreten.</h1>
-        <p>
-            Check ob die Config URL richtig ist!<br />
-            <a href="https://github.com/chaostreff-flensburg/digitalSignage">Git Repo and README 🔗</a>
-        </p>
+        <h1>Wähle jetzt ein Design aus:</h1>
         <div>
-            <h3>Examples</h3>
+            <h3>Beispiele</h3>
             <ul>
+                <li><a href="/?config=38c3">#38C3</a></li>
                 <li><a href="/?config=example1">Example1 - Hacks on the Beach</a></li>
                 <li><a href="/?config=hoth">hoth.info Hacks on the Habour</a></li>
                 <li><a href="/?config=eh20">#eh20 easterhegg 2023</a></li>
@@ -16,5 +13,14 @@
                 <li><a href="/?config=falscher-hase">Falscher Hase</a></li>
             </ul>
         </div>
+        <ol>
+            <li>Design Auswählen</li>
+            <li>Text anpassen</li>
+            <li>Drucken im Browser (Hintergrundgrafiken aktivieren)</li>
+        </ol>
+        <p>
+            Du kannst auch deine eigene Config erstellen.<br />
+            <a href="https://github.com/chaostreff-flensburg/digitalSignage">Git Repo and README 🔗</a>
+        </p>
     </div>
 </template>

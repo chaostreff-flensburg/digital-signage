@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="exclamdown" format="2">
+  <advance width="361"/>
+  <unicode hex="00A1"/>
+  <outline>
+    <component base="exclam" xScale="-1" yScale="-1" xOffset="361" yOffset="760" identifier="BE8FC701"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-05-20 09:56:33 +0000</string>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>BE8FC701</key>
+        <dict>
+          <key>com.schriftgestaltung.alignment</key>
+          <integer>-1</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

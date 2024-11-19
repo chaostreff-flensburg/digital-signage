@@ -1,0 +1,359 @@
+# automatic
+@All = [ A Aacute Abreve Acaron Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde AE B C Cacute Ccaron Ccedilla Cdotaccent D Eth Dcaron Dcroat E Eacute Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eogonek F G Gbreve Gcommaaccent Gdotaccent H Hbar I Iacute Icircumflex Idieresis Idotaccent Igrave Imacron J K Kcommaaccent L Lacute Lcaron Lslash M N Nacute Ncaron Ncommaaccent Eng Ntilde O Oacute Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde OE P Thorn Q R Racute Rcaron Rcommaaccent S Sacute Scaron Scedilla Scommaaccent T Tbar Tcaron Tcedilla Tcommaaccent U Uacute Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ygrave Z Zacute Zcaron Zdotaccent O.2 O.3 O.4 Oacute.2 Oacute.3 Oacute.4 Ocircumflex.2 Ocircumflex.3 Ocircumflex.4 Odieresis.2 Odieresis.3 Odieresis.4 Ograve.2 Ograve.3 Ograve.4 Ohungarumlaut.2 Ohungarumlaut.3 Ohungarumlaut.4 Omacron.2 Omacron.3 Omacron.4 Otilde.2 Otilde.3 Otilde.4 B.ss01 C.ss01 Cacute.ss01 Ccaron.ss01 Ccedilla.ss01 D.ss01 E.ss01 Eacute.ss01 Ecaron.ss01 Ecircumflex.ss01 Edieresis.ss01 Edotaccent.ss01 Egrave.ss01 Emacron.ss01 Eogonek.ss01 H.ss01 K.ss01 Kcommaaccent.ss01 M.ss01 N.ss01 Nacute.ss01 Ncaron.ss01 Ncommaaccent.ss01 Ntilde.ss01 S.ss01 Sacute.ss01 Scaron.ss01 Scedilla.ss01 T.ss01 Tbar.ss01 Tcaron.ss01 Tcedilla.ss01 U.ss01 Uacute.ss01 Ucircumflex.ss01 Udieresis.ss01 Ugrave.ss01 Uhungarumlaut.ss01 Umacron.ss01 Uogonek.ss01 Uring.ss01 V.ss01 X.ss01 A.ss02 Aacute.ss02 Abreve.ss02 Acircumflex.ss02 Adieresis.ss02 Agrave.ss02 Amacron.ss02 Aogonek.ss02 Aring.ss02 Atilde.ss02 V.ss02 A.ss03 Aacute.ss03 Abreve.ss03 Acircumflex.ss03 Adieresis.ss03 Agrave.ss03 Amacron.ss03 Aogonek.ss03 Aring.ss03 Atilde.ss03 E.ss03 Eacute.ss03 Ecaron.ss03 Ecircumflex.ss03 Edieresis.ss03 Edotaccent.ss03 Egrave.ss03 Emacron.ss03 Eogonek.ss03 G.ss03 J.ss03 M.ss03 S.ss03 T.ss03 U.ss03 Uacute.ss03 Ucircumflex.ss03 Udieresis.ss03 Ugrave.ss03 W.ss03 Wacute.ss03 Wcircumflex.ss03 Wdieresis.ss03 Wgrave.ss03 A.ss04 S.ss04 V.ss04 W.ss04 germandbls ordmasculine A-cy Be-cy Ve-cy Ge-cy Gje-cy Gheupturn-cy De-cy Ie-cy Iegrave-cy Io-cy Zhe-cy Ze-cy Ii-cy Iishort-cy Iigrave-cy Ka-cy Kje-cy El-cy Em-cy En-cy O-cy Pe-cy Er-cy Es-cy Te-cy U-cy Ushort-cy Ef-cy Ha-cy Che-cy Tse-cy Sha-cy Shcha-cy Dzhe-cy Softsign-cy Hardsign-cy Yeru-cy Lje-cy Nje-cy Dze-cy E-cy Ereversed-cy I-cy Yi-cy Je-cy Tshe-cy Iu-cy Ia-cy Dje-cy O-cy.2 O-cy.3 O-cy.4 De-cy.loclBGR El-cy.loclBGR Ef-cy.loclBGR Ve-cy.ss01 Ie-cy.ss01 Iegrave-cy.ss01 Io-cy.ss01 Zhe-cy.ss01 Ze-cy.ss01 Ii-cy.ss01 Iishort-cy.ss01 Iigrave-cy.ss01 Ka-cy.ss01 Kje-cy.ss01 Em-cy.ss01 En-cy.ss01 Pe-cy.ss01 Es-cy.ss01 Te-cy.ss01 Ef-cy.ss01 Ha-cy.ss01 Dzhe-cy.ss01 Dze-cy.ss01 E-cy.ss01 Ereversed-cy.ss01 Iu-cy.ss01 Ef-cy.loclBGR.ss01 A-cy.ss02 De-cy.ss02 El-cy.ss02 A-cy.ss03 Ie-cy.ss03 Iegrave-cy.ss03 Io-cy.ss03 Ze-cy.ss03 Ii-cy.ss03 Iishort-cy.ss03 Iigrave-cy.ss03 Em-cy.ss03 Te-cy.ss03 Sha-cy.ss03 Shcha-cy.ss03 Dze-cy.ss03 E-cy.ss03 Ereversed-cy.ss03 Je-cy.ss03 Tshe-cy.ss03 Iu-cy.ss03 Dje-cy.ss03 A-cy.ss04 El-cy.ss04 Dze-cy.ss04 Sha-cy.ss05 Shcha-cy.ss05 tse-cy sha-cy shcha-cy zero one two three four five six seven eight nine period comma colon semicolon ellipsis exclam exclamdown question questiondown periodcentered bullet asterisk numbersign slash backslash question.ss01 parenleft parenright braceleft braceright bracketleft bracketright hyphen endash emdash underscore quotesinglbase quotedblbase quotedblleft quotedblright quoteleft quoteright guillemetleft guillemetright guilsinglleft guilsinglright quotedbl quotesingle space dollar euro sterling equal asciicircum percent at ampersand degree numero ampersand.ss03 ampersand.ss04 apostrophemod dieresiscomb dotaccentcomb gravecomb acutecomb hungarumlautcomb circumflexcomb caroncomb brevecomb ringcomb tildecomb macroncomb commaaccentcomb cedillacomb ogonekcomb dieresis dotaccent grave acute hungarumlaut circumflex caron breve ring tilde macron cedilla brevecomb-cy lava VTF ];
+
+@ss01 = [  ];
+
+@ss02 = [  ];
+
+@ss03 = [  ];
+
+@ss04 = [  ];
+
+@alt1from = [ O Oacute Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Otilde B E Eacute Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eogonek H K Kcommaaccent M N Nacute Ncaron Ncommaaccent  S Sacute Scaron Scedilla T Tbar Tcaron Tcedilla U Uacute Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring V X O-cy Ve-cy Ie-cy Iegrave-cy Io-cy Zhe-cy Ze-cy Ii-cy Iishort-cy Iigrave-cy Ka-cy Kje-cy Em-cy En-cy Pe-cy Es-cy Te-cy Ef-cy Ha-cy Dzhe-cy Dze-cy E-cy Ereversed-cy Iu-cy Ef-cy.loclBGR ];
+
+@alt1to = [ O.2 Oacute.2 Ocircumflex.2 Odieresis.2 Ograve.2 Ohungarumlaut.2 Omacron.2 Otilde.2 B.ss01 E.ss01 Eacute.ss01 Ecaron.ss01 Ecircumflex.ss01 Edieresis.ss01 Edotaccent.ss01 Egrave.ss01 Emacron.ss01 Eogonek.ss01 H.ss01 K.ss01 Kcommaaccent.ss01 M.ss01 N.ss01 Nacute.ss01 Ncaron.ss01 Ncommaaccent.ss01 S.ss01 Sacute.ss01 Scaron.ss01 Scedilla.ss01 T.ss01 Tbar.ss01 Tcaron.ss01 Tcedilla.ss01 U.ss01 Uacute.ss01 Ucircumflex.ss01 Udieresis.ss01 Ugrave.ss01 Uhungarumlaut.ss01 Umacron.ss01 Uogonek.ss01 Uring.ss01 V.ss01 X O-cy.2 Ve-cy.ss01 Ie-cy.ss01 Iegrave-cy.ss01 Io-cy.ss01 Zhe-cy.ss01 Ze-cy.ss01 Ii-cy.ss01 Iishort-cy.ss01 Iigrave-cy.ss01 Ka-cy.ss01 Kje-cy.ss01 Em-cy.ss01 En-cy.ss01 Pe-cy.ss01 Es-cy.ss01 Te-cy.ss01 Ef-cy.ss01 Ha-cy.ss01 Dzhe-cy.ss01 Dze-cy.ss01 E-cy.ss01 Ereversed-cy.ss01 Iu-cy.ss01 Ef-cy.loclBGR.ss01 ];
+
+@basiques = [ A Aacute Acircumflex Adieresis Agrave Aring Atilde AE B C Ccedilla D Eth E Eacute Ecircumflex Edieresis Egrave F G H I Iacute Icircumflex Idieresis Igrave J K L M N Ntilde O Oacute Ocircumflex Odieresis Ograve Oslash OE P Thorn Q R S T U Uacute Ucircumflex Udieresis Ugrave V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ygrave Z A-cy Be-cy Ve-cy Ge-cy Gje-cy Gheupturn-cy De-cy Ie-cy Iegrave-cy Io-cy Zhe-cy Ze-cy Ii-cy Iishort-cy Iigrave-cy Ka-cy Kje-cy El-cy Em-cy En-cy O-cy Pe-cy Er-cy Es-cy Te-cy U-cy Ushort-cy Ef-cy Ha-cy Che-cy Tse-cy Sha-cy Shcha-cy Dzhe-cy Softsign-cy Hardsign-cy Yeru-cy Lje-cy Nje-cy Dze-cy E-cy Ereversed-cy I-cy Yi-cy Je-cy Tshe-cy Iu-cy Ia-cy Dje-cy ];
+
+# Prefix: Languagesystems
+# automatic
+languagesystem DFLT dflt;
+
+languagesystem latn dflt;
+languagesystem latn ROM;
+languagesystem latn MOL;
+
+languagesystem cyrl dflt;
+languagesystem cyrl BGR;
+
+feature aalt {
+# automatic
+feature locl;
+feature ordn;
+feature salt;
+feature ss01;
+feature ss02;
+feature ss03;
+feature ss04;
+feature calt;
+feature ss05;
+} aalt;
+
+feature locl {
+# automatic
+lookup locl_latn_0 {
+	script latn;
+	language ROM;
+	language MOL;
+	sub Scedilla by Scommaaccent;
+	sub Tcedilla by Tcommaaccent;
+} locl_latn_0;
+
+lookup locl_cyrl_0 {
+	script cyrl;
+	language BGR;
+	sub De-cy by De-cy.loclBGR;
+	sub El-cy by El-cy.loclBGR;
+	sub Ef-cy by Ef-cy.loclBGR;
+} locl_cyrl_0;
+} locl;
+
+feature ordn {
+# automatic
+sub [zero one two three four five six seven eight nine] [O]' by ordmasculine;
+} ordn;
+
+feature salt {
+# automatic
+sub B by B.ss01;
+sub C by C.ss01;
+sub Cacute by Cacute.ss01;
+sub Ccaron by Ccaron.ss01;
+sub Ccedilla by Ccedilla.ss01;
+sub D by D.ss01;
+sub E by E.ss01;
+sub Eacute by Eacute.ss01;
+sub Ecaron by Ecaron.ss01;
+sub Ecircumflex by Ecircumflex.ss01;
+sub Edieresis by Edieresis.ss01;
+sub Edotaccent by Edotaccent.ss01;
+sub Egrave by Egrave.ss01;
+sub Emacron by Emacron.ss01;
+sub Eogonek by Eogonek.ss01;
+sub H by H.ss01;
+sub K by K.ss01;
+sub Kcommaaccent by Kcommaaccent.ss01;
+sub M by M.ss01;
+sub N by N.ss01;
+sub Nacute by Nacute.ss01;
+sub Ncaron by Ncaron.ss01;
+sub Ncommaaccent by Ncommaaccent.ss01;
+sub Ntilde by Ntilde.ss01;
+sub S by S.ss01;
+sub Sacute by Sacute.ss01;
+sub Scaron by Scaron.ss01;
+sub Scedilla by Scedilla.ss01;
+sub T by T.ss01;
+sub Tbar by Tbar.ss01;
+sub Tcaron by Tcaron.ss01;
+sub Tcedilla by Tcedilla.ss01;
+sub U by U.ss01;
+sub Uacute by Uacute.ss01;
+sub Ucircumflex by Ucircumflex.ss01;
+sub Udieresis by Udieresis.ss01;
+sub Ugrave by Ugrave.ss01;
+sub Uhungarumlaut by Uhungarumlaut.ss01;
+sub Umacron by Umacron.ss01;
+sub Uogonek by Uogonek.ss01;
+sub Uring by Uring.ss01;
+sub V by V.ss01;
+sub X by X.ss01;
+sub Ve-cy by Ve-cy.ss01;
+sub Ie-cy by Ie-cy.ss01;
+sub Iegrave-cy by Iegrave-cy.ss01;
+sub Io-cy by Io-cy.ss01;
+sub Zhe-cy by Zhe-cy.ss01;
+sub Ze-cy by Ze-cy.ss01;
+sub Ii-cy by Ii-cy.ss01;
+sub Iishort-cy by Iishort-cy.ss01;
+sub Iigrave-cy by Iigrave-cy.ss01;
+sub Ka-cy by Ka-cy.ss01;
+sub Kje-cy by Kje-cy.ss01;
+sub Em-cy by Em-cy.ss01;
+sub En-cy by En-cy.ss01;
+sub Pe-cy by Pe-cy.ss01;
+sub Es-cy by Es-cy.ss01;
+sub Te-cy by Te-cy.ss01;
+sub Ef-cy by Ef-cy.ss01;
+sub Ha-cy by Ha-cy.ss01;
+sub Dzhe-cy by Dzhe-cy.ss01;
+sub Dze-cy by Dze-cy.ss01;
+sub E-cy by E-cy.ss01;
+sub Ereversed-cy by Ereversed-cy.ss01;
+sub Iu-cy by Iu-cy.ss01;
+sub Ef-cy.loclBGR by Ef-cy.loclBGR.ss01;
+sub question by question.ss01;
+} salt;
+
+feature ss01 {
+# automatic
+sub B by B.ss01;
+sub C by C.ss01;
+sub Cacute by Cacute.ss01;
+sub Ccaron by Ccaron.ss01;
+sub Ccedilla by Ccedilla.ss01;
+sub D by D.ss01;
+sub E by E.ss01;
+sub Eacute by Eacute.ss01;
+sub Ecaron by Ecaron.ss01;
+sub Ecircumflex by Ecircumflex.ss01;
+sub Edieresis by Edieresis.ss01;
+sub Edotaccent by Edotaccent.ss01;
+sub Egrave by Egrave.ss01;
+sub Emacron by Emacron.ss01;
+sub Eogonek by Eogonek.ss01;
+sub H by H.ss01;
+sub K by K.ss01;
+sub Kcommaaccent by Kcommaaccent.ss01;
+sub M by M.ss01;
+sub N by N.ss01;
+sub Nacute by Nacute.ss01;
+sub Ncaron by Ncaron.ss01;
+sub Ncommaaccent by Ncommaaccent.ss01;
+sub Ntilde by Ntilde.ss01;
+sub S by S.ss01;
+sub Sacute by Sacute.ss01;
+sub Scaron by Scaron.ss01;
+sub Scedilla by Scedilla.ss01;
+sub T by T.ss01;
+sub Tbar by Tbar.ss01;
+sub Tcaron by Tcaron.ss01;
+sub Tcedilla by Tcedilla.ss01;
+sub U by U.ss01;
+sub Uacute by Uacute.ss01;
+sub Ucircumflex by Ucircumflex.ss01;
+sub Udieresis by Udieresis.ss01;
+sub Ugrave by Ugrave.ss01;
+sub Uhungarumlaut by Uhungarumlaut.ss01;
+sub Umacron by Umacron.ss01;
+sub Uogonek by Uogonek.ss01;
+sub Uring by Uring.ss01;
+sub V by V.ss01;
+sub X by X.ss01;
+sub Ve-cy by Ve-cy.ss01;
+sub Ie-cy by Ie-cy.ss01;
+sub Iegrave-cy by Iegrave-cy.ss01;
+sub Io-cy by Io-cy.ss01;
+sub Zhe-cy by Zhe-cy.ss01;
+sub Ze-cy by Ze-cy.ss01;
+sub Ii-cy by Ii-cy.ss01;
+sub Iishort-cy by Iishort-cy.ss01;
+sub Iigrave-cy by Iigrave-cy.ss01;
+sub Ka-cy by Ka-cy.ss01;
+sub Kje-cy by Kje-cy.ss01;
+sub Em-cy by Em-cy.ss01;
+sub En-cy by En-cy.ss01;
+sub Pe-cy by Pe-cy.ss01;
+sub Es-cy by Es-cy.ss01;
+sub Te-cy by Te-cy.ss01;
+sub Ef-cy by Ef-cy.ss01;
+sub Ha-cy by Ha-cy.ss01;
+sub Dzhe-cy by Dzhe-cy.ss01;
+sub Dze-cy by Dze-cy.ss01;
+sub E-cy by E-cy.ss01;
+sub Ereversed-cy by Ereversed-cy.ss01;
+sub Iu-cy by Iu-cy.ss01;
+sub Ef-cy.loclBGR by Ef-cy.loclBGR.ss01;
+sub question by question.ss01;
+} ss01;
+
+feature ss02 {
+# automatic
+sub A by A.ss02;
+sub Aacute by Aacute.ss02;
+sub Abreve by Abreve.ss02;
+sub Acircumflex by Acircumflex.ss02;
+sub Adieresis by Adieresis.ss02;
+sub Agrave by Agrave.ss02;
+sub Amacron by Amacron.ss02;
+sub Aogonek by Aogonek.ss02;
+sub Aring by Aring.ss02;
+sub Atilde by Atilde.ss02;
+sub V by V.ss02;
+sub A-cy by A-cy.ss02;
+sub De-cy by De-cy.ss02;
+sub El-cy by El-cy.ss02;
+} ss02;
+
+feature ss03 {
+# automatic
+sub A by A.ss03;
+sub Aacute by Aacute.ss03;
+sub Abreve by Abreve.ss03;
+sub Acircumflex by Acircumflex.ss03;
+sub Adieresis by Adieresis.ss03;
+sub Agrave by Agrave.ss03;
+sub Amacron by Amacron.ss03;
+sub Aogonek by Aogonek.ss03;
+sub Aring by Aring.ss03;
+sub Atilde by Atilde.ss03;
+sub E by E.ss03;
+sub Eacute by Eacute.ss03;
+sub Ecaron by Ecaron.ss03;
+sub Ecircumflex by Ecircumflex.ss03;
+sub Edieresis by Edieresis.ss03;
+sub Edotaccent by Edotaccent.ss03;
+sub Egrave by Egrave.ss03;
+sub Emacron by Emacron.ss03;
+sub Eogonek by Eogonek.ss03;
+sub G by G.ss03;
+sub J by J.ss03;
+sub M by M.ss03;
+sub S by S.ss03;
+sub T by T.ss03;
+sub U by U.ss03;
+sub Uacute by Uacute.ss03;
+sub Ucircumflex by Ucircumflex.ss03;
+sub Udieresis by Udieresis.ss03;
+sub Ugrave by Ugrave.ss03;
+sub W by W.ss03;
+sub Wacute by Wacute.ss03;
+sub Wcircumflex by Wcircumflex.ss03;
+sub Wdieresis by Wdieresis.ss03;
+sub Wgrave by Wgrave.ss03;
+sub A-cy by A-cy.ss03;
+sub Ie-cy by Ie-cy.ss03;
+sub Iegrave-cy by Iegrave-cy.ss03;
+sub Io-cy by Io-cy.ss03;
+sub Ze-cy by Ze-cy.ss03;
+sub Ii-cy by Ii-cy.ss03;
+sub Iishort-cy by Iishort-cy.ss03;
+sub Iigrave-cy by Iigrave-cy.ss03;
+sub Em-cy by Em-cy.ss03;
+sub Te-cy by Te-cy.ss03;
+sub Sha-cy by Sha-cy.ss03;
+sub Shcha-cy by Shcha-cy.ss03;
+sub Dze-cy by Dze-cy.ss03;
+sub E-cy by E-cy.ss03;
+sub Ereversed-cy by Ereversed-cy.ss03;
+sub Je-cy by Je-cy.ss03;
+sub Tshe-cy by Tshe-cy.ss03;
+sub Iu-cy by Iu-cy.ss03;
+sub Dje-cy by Dje-cy.ss03;
+sub ampersand by ampersand.ss03;
+} ss03;
+
+feature ss04 {
+# automatic
+sub A by A.ss04;
+sub S by S.ss04;
+sub V by V.ss04;
+sub W by W.ss04;
+sub A-cy by A-cy.ss04;
+sub El-cy by El-cy.ss04;
+sub Dze-cy by Dze-cy.ss04;
+sub ampersand by ampersand.ss04;
+} ss04;
+
+feature calt {
+sub @alt1from @alt1from' by @alt1to;
+sub O.2 O.2' by O.3;
+sub O.3 O.3' by O.4;
+sub O.4 O.4' by O;
+sub O-cy.2 O-cy.2' by O-cy.3;
+sub O-cy.3 O-cy.3' by O-cy.4;
+sub O-cy.4 O-cy.4' by O-cy;
+
+sub @alt1from [A Aacute Acircumflex Adieresis Agrave Aring Atilde AE B C Ccedilla D Eth E Eacute Ecircumflex Edieresis Egrave F G H I Iacute Icircumflex Idieresis Igrave J K L M N Ntilde  OE P Thorn Q R S T U Uacute Ucircumflex Udieresis Ugrave V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ygrave Z B.ss01 C.ss01 D.ss01 E.ss01 H.ss01 K.ss01 M.ss01 N.ss01 S.ss01 T.ss01 U.ss01 V.ss01 X.ss01 A.ss02  V.ss02 A.ss03 E.ss03 G.ss03 J.ss03 M.ss03 S.ss03 T.ss03 U.ss03 W.ss03 A.ss04 S.ss04 V.ss04 W.ss04 zero one two three four five six seven eight nine period comma colon semicolon exclam question bullet slash question.ss01 parenleft parenright braceleft braceright hyphen endash emdash underscore quotesinglbase quotedblbase quotedblleft quotedblright quoteleft quoteright guillemetleft guillemetright guilsinglleft guilsinglright quotesingle space dollar euro sterling ampersand ampersand.ss03 ampersand.ss04 dieresiscomb dotaccentcomb gravecomb acutecomb circumflexcomb ringcomb tildecomb cedillacomb lava VTF A-cy Be-cy Ve-cy Ge-cy Gje-cy Gheupturn-cy De-cy Ie-cy Iegrave-cy Io-cy Zhe-cy Ze-cy Ii-cy Iishort-cy Iigrave-cy Ka-cy Kje-cy El-cy Em-cy En-cy Pe-cy Er-cy Es-cy Te-cy U-cy Ushort-cy Ef-cy Ha-cy Che-cy Tse-cy Sha-cy Shcha-cy Dzhe-cy Softsign-cy Hardsign-cy Yeru-cy Lje-cy Nje-cy Dze-cy E-cy Ereversed-cy I-cy Yi-cy Je-cy Tshe-cy Iu-cy Ia-cy Dje-cy De-cy.loclBGR El-cy.loclBGR Ef-cy.loclBGR Ve-cy.ss01 Ie-cy.ss01 Iegrave-cy.ss01 Io-cy.ss01 Zhe-cy.ss01 Ze-cy.ss01 Ii-cy.ss01 Iishort-cy.ss01 Iigrave-cy.ss01 Ka-cy.ss01 Kje-cy.ss01 Em-cy.ss01 En-cy.ss01 Pe-cy.ss01 Es-cy.ss01 Te-cy.ss01 Ef-cy.ss01 Ha-cy.ss01 Dzhe-cy.ss01 Dze-cy.ss01 E-cy.ss01 Ereversed-cy.ss01 Iu-cy.ss01 Ef-cy.loclBGR.ss01 A-cy.ss02 De-cy.ss02 El-cy.ss02 A-cy.ss03 Ie-cy.ss03 Iegrave-cy.ss03 Io-cy.ss03 Ze-cy.ss03 Ii-cy.ss03 Iishort-cy.ss03 Iigrave-cy.ss03 Em-cy.ss03 Te-cy.ss03 Sha-cy.ss03 Shcha-cy.ss03 Dze-cy.ss03 E-cy.ss03 Ereversed-cy.ss03 Je-cy.ss03 Tshe-cy.ss03 Iu-cy.ss03 Dje-cy.ss03 A-cy.ss04 El-cy.ss04 Dze-cy.ss04 Sha-cy.ss05 Shcha-cy.ss05 tse-cy sha-cy shcha-cy] @alt1from' by @alt1to;
+
+sub O.2 [A Aacute Acircumflex Adieresis Agrave Aring Atilde AE B C Ccedilla D Eth E Eacute Ecircumflex Edieresis Egrave F G H I Iacute Icircumflex Idieresis Igrave J K L M N Ntilde  OE P Thorn Q R S T U Uacute Ucircumflex Udieresis Ugrave V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ygrave Z B.ss01 C.ss01 D.ss01 E.ss01 H.ss01 K.ss01 M.ss01 N.ss01 S.ss01 T.ss01 U.ss01 V.ss01 X.ss01 A.ss02  V.ss02 A.ss03 E.ss03 G.ss03 J.ss03 M.ss03 S.ss03 T.ss03 U.ss03 W.ss03 A.ss04 S.ss04 V.ss04 W.ss04 zero one two three four five six seven eight nine period comma colon semicolon exclam question bullet slash question.ss01 parenleft parenright braceleft braceright hyphen endash emdash underscore quotesinglbase quotedblbase quotedblleft quotedblright quoteleft quoteright guillemetleft guillemetright guilsinglleft guilsinglright quotesingle space dollar euro sterling ampersand ampersand.ss03 ampersand.ss04 dieresiscomb dotaccentcomb gravecomb acutecomb circumflexcomb ringcomb tildecomb cedillacomb lava VTF] O.2' by O.3;
+
+sub O.3 [A Aacute Acircumflex Adieresis Agrave Aring Atilde AE B C Ccedilla D Eth E Eacute Ecircumflex Edieresis Egrave F G H I Iacute Icircumflex Idieresis Igrave J K L M N Ntilde  OE P Thorn Q R S T U Uacute Ucircumflex Udieresis Ugrave V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ygrave Z B.ss01 C.ss01 D.ss01 E.ss01 H.ss01 K.ss01 M.ss01 N.ss01 S.ss01 T.ss01 U.ss01 V.ss01 X.ss01 A.ss02  V.ss02 A.ss03 E.ss03 G.ss03 J.ss03 M.ss03 S.ss03 T.ss03 U.ss03 W.ss03 A.ss04 S.ss04 V.ss04 W.ss04 zero one two three four five six seven eight nine period comma colon semicolon exclam question bullet slash question.ss01 parenleft parenright braceleft braceright hyphen endash emdash underscore quotesinglbase quotedblbase quotedblleft quotedblright quoteleft quoteright guillemetleft guillemetright guilsinglleft guilsinglright quotesingle space dollar euro sterling ampersand ampersand.ss03 ampersand.ss04 dieresiscomb dotaccentcomb gravecomb acutecomb circumflexcomb ringcomb tildecomb cedillacomb lava VTF] O.3' by O.4;
+
+sub O.4 [A Aacute Acircumflex Adieresis Agrave Aring Atilde AE B C Ccedilla D Eth E Eacute Ecircumflex Edieresis Egrave F G H I Iacute Icircumflex Idieresis Igrave J K L M N Ntilde  OE P Thorn Q R S T U Uacute Ucircumflex Udieresis Ugrave V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ygrave Z B.ss01 C.ss01 D.ss01 E.ss01 H.ss01 K.ss01 M.ss01 N.ss01 S.ss01 T.ss01 U.ss01 V.ss01 X.ss01 A.ss02  V.ss02 A.ss03 E.ss03 G.ss03 J.ss03 M.ss03 S.ss03 T.ss03 U.ss03 W.ss03 A.ss04 S.ss04 V.ss04 W.ss04 zero one two three four five six seven eight nine period comma colon semicolon exclam question bullet slash question.ss01 parenleft parenright braceleft braceright hyphen endash emdash underscore quotesinglbase quotedblbase quotedblleft quotedblright quoteleft quoteright guillemetleft guillemetright guilsinglleft guilsinglright quotesingle space dollar euro sterling ampersand ampersand.ss03 ampersand.ss04 dieresiscomb dotaccentcomb gravecomb acutecomb circumflexcomb ringcomb tildecomb cedillacomb lava VTF] O.4' by O;
+
+sub O-cy.2 [A-cy Be-cy Ve-cy Ge-cy Gje-cy Gheupturn-cy De-cy Ie-cy Iegrave-cy Io-cy Zhe-cy Ze-cy Ii-cy Iishort-cy Iigrave-cy Ka-cy Kje-cy El-cy Em-cy En-cy Pe-cy Er-cy Es-cy Te-cy U-cy Ushort-cy Ef-cy Ha-cy Che-cy Tse-cy Sha-cy Shcha-cy Dzhe-cy Softsign-cy Hardsign-cy Yeru-cy Lje-cy Nje-cy Dze-cy E-cy Ereversed-cy I-cy Yi-cy Je-cy Tshe-cy Iu-cy Ia-cy Dje-cy De-cy.loclBGR El-cy.loclBGR Ef-cy.loclBGR Ve-cy.ss01 Ie-cy.ss01 Iegrave-cy.ss01 Io-cy.ss01 Zhe-cy.ss01 Ze-cy.ss01 Ii-cy.ss01 Iishort-cy.ss01 Iigrave-cy.ss01 Ka-cy.ss01 Kje-cy.ss01 Em-cy.ss01 En-cy.ss01 Pe-cy.ss01 Es-cy.ss01 Te-cy.ss01 Ef-cy.ss01 Ha-cy.ss01 Dzhe-cy.ss01 Dze-cy.ss01 E-cy.ss01 Ereversed-cy.ss01 Iu-cy.ss01 Ef-cy.loclBGR.ss01 A-cy.ss02 De-cy.ss02 El-cy.ss02 A-cy.ss03 Ie-cy.ss03 Iegrave-cy.ss03 Io-cy.ss03 Ze-cy.ss03 Ii-cy.ss03 Iishort-cy.ss03 Iigrave-cy.ss03 Em-cy.ss03 Te-cy.ss03 Sha-cy.ss03 Shcha-cy.ss03 Dze-cy.ss03 E-cy.ss03 Ereversed-cy.ss03 Je-cy.ss03 Tshe-cy.ss03 Iu-cy.ss03 Dje-cy.ss03 A-cy.ss04 El-cy.ss04 Dze-cy.ss04 Sha-cy.ss05 Shcha-cy.ss05 tse-cy sha-cy shcha-cy] O-cy.2' by O-cy.3;
+
+sub O-cy.3 [A-cy Be-cy Ve-cy Ge-cy Gje-cy Gheupturn-cy De-cy Ie-cy Iegrave-cy Io-cy Zhe-cy Ze-cy Ii-cy Iishort-cy Iigrave-cy Ka-cy Kje-cy El-cy Em-cy En-cy Pe-cy Er-cy Es-cy Te-cy U-cy Ushort-cy Ef-cy Ha-cy Che-cy Tse-cy Sha-cy Shcha-cy Dzhe-cy Softsign-cy Hardsign-cy Yeru-cy Lje-cy Nje-cy Dze-cy E-cy Ereversed-cy I-cy Yi-cy Je-cy Tshe-cy Iu-cy Ia-cy Dje-cy De-cy.loclBGR El-cy.loclBGR Ef-cy.loclBGR Ve-cy.ss01 Ie-cy.ss01 Iegrave-cy.ss01 Io-cy.ss01 Zhe-cy.ss01 Ze-cy.ss01 Ii-cy.ss01 Iishort-cy.ss01 Iigrave-cy.ss01 Ka-cy.ss01 Kje-cy.ss01 Em-cy.ss01 En-cy.ss01 Pe-cy.ss01 Es-cy.ss01 Te-cy.ss01 Ef-cy.ss01 Ha-cy.ss01 Dzhe-cy.ss01 Dze-cy.ss01 E-cy.ss01 Ereversed-cy.ss01 Iu-cy.ss01 Ef-cy.loclBGR.ss01 A-cy.ss02 De-cy.ss02 El-cy.ss02 A-cy.ss03 Ie-cy.ss03 Iegrave-cy.ss03 Io-cy.ss03 Ze-cy.ss03 Ii-cy.ss03 Iishort-cy.ss03 Iigrave-cy.ss03 Em-cy.ss03 Te-cy.ss03 Sha-cy.ss03 Shcha-cy.ss03 Dze-cy.ss03 E-cy.ss03 Ereversed-cy.ss03 Je-cy.ss03 Tshe-cy.ss03 Iu-cy.ss03 Dje-cy.ss03 A-cy.ss04 El-cy.ss04 Dze-cy.ss04 Sha-cy.ss05 Shcha-cy.ss05 tse-cy sha-cy shcha-cy] O-cy.3' by O-cy.4; 
+
+sub O-cy.4 [A-cy Be-cy Ve-cy Ge-cy Gje-cy Gheupturn-cy De-cy Ie-cy Iegrave-cy Io-cy Zhe-cy Ze-cy Ii-cy Iishort-cy Iigrave-cy Ka-cy Kje-cy El-cy Em-cy En-cy Pe-cy Er-cy Es-cy Te-cy U-cy Ushort-cy Ef-cy Ha-cy Che-cy Tse-cy Sha-cy Shcha-cy Dzhe-cy Softsign-cy Hardsign-cy Yeru-cy Lje-cy Nje-cy Dze-cy E-cy Ereversed-cy I-cy Yi-cy Je-cy Tshe-cy Iu-cy Ia-cy Dje-cy De-cy.loclBGR El-cy.loclBGR Ef-cy.loclBGR Ve-cy.ss01 Ie-cy.ss01 Iegrave-cy.ss01 Io-cy.ss01 Zhe-cy.ss01 Ze-cy.ss01 Ii-cy.ss01 Iishort-cy.ss01 Iigrave-cy.ss01 Ka-cy.ss01 Kje-cy.ss01 Em-cy.ss01 En-cy.ss01 Pe-cy.ss01 Es-cy.ss01 Te-cy.ss01 Ef-cy.ss01 Ha-cy.ss01 Dzhe-cy.ss01 Dze-cy.ss01 E-cy.ss01 Ereversed-cy.ss01 Iu-cy.ss01 Ef-cy.loclBGR.ss01 A-cy.ss02 De-cy.ss02 El-cy.ss02 A-cy.ss03 Ie-cy.ss03 Iegrave-cy.ss03 Io-cy.ss03 Ze-cy.ss03 Ii-cy.ss03 Iishort-cy.ss03 Iigrave-cy.ss03 Em-cy.ss03 Te-cy.ss03 Sha-cy.ss03 Shcha-cy.ss03 Dze-cy.ss03 E-cy.ss03 Ereversed-cy.ss03 Je-cy.ss03 Tshe-cy.ss03 Iu-cy.ss03 Dje-cy.ss03 A-cy.ss04 El-cy.ss04 Dze-cy.ss04 Sha-cy.ss05 Shcha-cy.ss05 tse-cy sha-cy shcha-cy] O-cy.4' by O-cy;
+
+
+sub @alt1from @All [A Aacute Acircumflex Adieresis Agrave Aring Atilde AE B C Ccedilla D Eth E Eacute Ecircumflex Edieresis Egrave F G H I Iacute Icircumflex Idieresis Igrave J K L M N Ntilde  OE P Thorn Q R S T U Uacute Ucircumflex Udieresis Ugrave V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ygrave Z B.ss01 C.ss01 D.ss01 E.ss01 H.ss01 K.ss01 M.ss01 N.ss01 S.ss01 T.ss01 U.ss01 V.ss01 X.ss01 A.ss02  V.ss02 A.ss03 E.ss03 G.ss03 J.ss03 M.ss03 S.ss03 T.ss03 U.ss03 W.ss03 A.ss04 S.ss04 V.ss04 W.ss04 zero one two three four five six seven eight nine period comma colon semicolon exclam question bullet slash question.ss01 parenleft parenright braceleft braceright hyphen endash emdash underscore quotesinglbase quotedblbase quotedblleft quotedblright quoteleft quoteright guillemetleft guillemetright guilsinglleft guilsinglright quotesingle space dollar euro sterling ampersand ampersand.ss03 ampersand.ss04 dieresiscomb dotaccentcomb gravecomb acutecomb circumflexcomb ringcomb tildecomb cedillacomb lava VTF A-cy Be-cy Ve-cy Ge-cy Gje-cy Gheupturn-cy De-cy Ie-cy Iegrave-cy Io-cy Zhe-cy Ze-cy Ii-cy Iishort-cy Iigrave-cy Ka-cy Kje-cy El-cy Em-cy En-cy Pe-cy Er-cy Es-cy Te-cy U-cy Ushort-cy Ef-cy Ha-cy Che-cy Tse-cy Sha-cy Shcha-cy Dzhe-cy Softsign-cy Hardsign-cy Yeru-cy Lje-cy Nje-cy Dze-cy E-cy Ereversed-cy I-cy Yi-cy Je-cy Tshe-cy Iu-cy Ia-cy Dje-cy De-cy.loclBGR El-cy.loclBGR Ef-cy.loclBGR Ve-cy.ss01 Ie-cy.ss01 Iegrave-cy.ss01 Io-cy.ss01 Zhe-cy.ss01 Ze-cy.ss01 Ii-cy.ss01 Iishort-cy.ss01 Iigrave-cy.ss01 Ka-cy.ss01 Kje-cy.ss01 Em-cy.ss01 En-cy.ss01 Pe-cy.ss01 Es-cy.ss01 Te-cy.ss01 Ef-cy.ss01 Ha-cy.ss01 Dzhe-cy.ss01 Dze-cy.ss01 E-cy.ss01 Ereversed-cy.ss01 Iu-cy.ss01 Ef-cy.loclBGR.ss01 A-cy.ss02 De-cy.ss02 El-cy.ss02 A-cy.ss03 Ie-cy.ss03 Iegrave-cy.ss03 Io-cy.ss03 Ze-cy.ss03 Ii-cy.ss03 Iishort-cy.ss03 Iigrave-cy.ss03 Em-cy.ss03 Te-cy.ss03 Sha-cy.ss03 Shcha-cy.ss03 Dze-cy.ss03 E-cy.ss03 Ereversed-cy.ss03 Je-cy.ss03 Tshe-cy.ss03 Iu-cy.ss03 Dje-cy.ss03 A-cy.ss04 El-cy.ss04 Dze-cy.ss04 Sha-cy.ss05 Shcha-cy.ss05 tse-cy sha-cy shcha-cy ] @alt1from' by @alt1to;
+
+sub O.2 @All [A Aacute Acircumflex Adieresis Agrave Aring Atilde AE B C Ccedilla D Eth E Eacute Ecircumflex Edieresis Egrave F G H I Iacute Icircumflex Idieresis Igrave J K L M N Ntilde  OE P Thorn Q R S T U Uacute Ucircumflex Udieresis Ugrave V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ygrave Z B.ss01 C.ss01 D.ss01 E.ss01 H.ss01 K.ss01 M.ss01 N.ss01 S.ss01 T.ss01 U.ss01 V.ss01 X.ss01 A.ss02  V.ss02 A.ss03 E.ss03 G.ss03 J.ss03 M.ss03 S.ss03 T.ss03 U.ss03 W.ss03 A.ss04 S.ss04 V.ss04 W.ss04 zero one two three four five six seven eight nine period comma colon semicolon exclam question bullet slash question.ss01 parenleft parenright braceleft braceright hyphen endash emdash underscore quotesinglbase quotedblbase quotedblleft quotedblright quoteleft quoteright guillemetleft guillemetright guilsinglleft guilsinglright quotesingle space dollar euro sterling ampersand ampersand.ss03 ampersand.ss04 dieresiscomb dotaccentcomb gravecomb acutecomb circumflexcomb ringcomb tildecomb cedillacomb lava VTF] O.2' by O.3;
+
+sub O.3 @All [A Aacute Acircumflex Adieresis Agrave Aring Atilde AE B C Ccedilla D Eth E Eacute Ecircumflex Edieresis Egrave F G H I Iacute Icircumflex Idieresis Igrave J K L M N Ntilde  OE P Thorn Q R S T U Uacute Ucircumflex Udieresis Ugrave V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ygrave Z B.ss01 C.ss01 D.ss01 E.ss01 H.ss01 K.ss01 M.ss01 N.ss01 S.ss01 T.ss01 U.ss01 V.ss01 X.ss01 A.ss02  V.ss02 A.ss03 E.ss03 G.ss03 J.ss03 M.ss03 S.ss03 T.ss03 U.ss03 W.ss03 A.ss04 S.ss04 V.ss04 W.ss04 zero one two three four five six seven eight nine period comma colon semicolon exclam question bullet slash question.ss01 parenleft parenright braceleft braceright hyphen endash emdash underscore quotesinglbase quotedblbase quotedblleft quotedblright quoteleft quoteright guillemetleft guillemetright guilsinglleft guilsinglright quotesingle space dollar euro sterling ampersand ampersand.ss03 ampersand.ss04 dieresiscomb dotaccentcomb gravecomb acutecomb circumflexcomb ringcomb tildecomb cedillacomb lava VTF] O.3' by O.4;
+
+sub O.4 @All [A Aacute Acircumflex Adieresis Agrave Aring Atilde AE B C Ccedilla D Eth E Eacute Ecircumflex Edieresis Egrave F G H I Iacute Icircumflex Idieresis Igrave J K L M N Ntilde  OE P Thorn Q R S T U Uacute Ucircumflex Udieresis Ugrave V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ygrave Z B.ss01 C.ss01 D.ss01 E.ss01 H.ss01 K.ss01 M.ss01 N.ss01 S.ss01 T.ss01 U.ss01 V.ss01 X.ss01 A.ss02  V.ss02 A.ss03 E.ss03 G.ss03 J.ss03 M.ss03 S.ss03 T.ss03 U.ss03 W.ss03 A.ss04 S.ss04 V.ss04 W.ss04 zero one two three four five six seven eight nine period comma colon semicolon exclam question bullet slash question.ss01 parenleft parenright braceleft braceright hyphen endash emdash underscore quotesinglbase quotedblbase quotedblleft quotedblright quoteleft quoteright guillemetleft guillemetright guilsinglleft guilsinglright quotesingle space dollar euro sterling ampersand ampersand.ss03 ampersand.ss04 dieresiscomb dotaccentcomb gravecomb acutecomb circumflexcomb ringcomb tildecomb cedillacomb lava VTF] O.4' by O;
+
+sub O-cy.2 @All [A-cy Be-cy Ve-cy Ge-cy Gje-cy Gheupturn-cy De-cy Ie-cy Iegrave-cy Io-cy Zhe-cy Ze-cy Ii-cy Iishort-cy Iigrave-cy Ka-cy Kje-cy El-cy Em-cy En-cy Pe-cy Er-cy Es-cy Te-cy U-cy Ushort-cy Ef-cy Ha-cy Che-cy Tse-cy Sha-cy Shcha-cy Dzhe-cy Softsign-cy Hardsign-cy Yeru-cy Lje-cy Nje-cy Dze-cy E-cy Ereversed-cy I-cy Yi-cy Je-cy Tshe-cy Iu-cy Ia-cy Dje-cy De-cy.loclBGR El-cy.loclBGR Ef-cy.loclBGR Ve-cy.ss01 Ie-cy.ss01 Iegrave-cy.ss01 Io-cy.ss01 Zhe-cy.ss01 Ze-cy.ss01 Ii-cy.ss01 Iishort-cy.ss01 Iigrave-cy.ss01 Ka-cy.ss01 Kje-cy.ss01 Em-cy.ss01 En-cy.ss01 Pe-cy.ss01 Es-cy.ss01 Te-cy.ss01 Ef-cy.ss01 Ha-cy.ss01 Dzhe-cy.ss01 Dze-cy.ss01 E-cy.ss01 Ereversed-cy.ss01 Iu-cy.ss01 Ef-cy.loclBGR.ss01 A-cy.ss02 De-cy.ss02 El-cy.ss02 A-cy.ss03 Ie-cy.ss03 Iegrave-cy.ss03 Io-cy.ss03 Ze-cy.ss03 Ii-cy.ss03 Iishort-cy.ss03 Iigrave-cy.ss03 Em-cy.ss03 Te-cy.ss03 Sha-cy.ss03 Shcha-cy.ss03 Dze-cy.ss03 E-cy.ss03 Ereversed-cy.ss03 Je-cy.ss03 Tshe-cy.ss03 Iu-cy.ss03 Dje-cy.ss03 A-cy.ss04 El-cy.ss04 Dze-cy.ss04 Sha-cy.ss05 Shcha-cy.ss05 tse-cy sha-cy shcha-cy] O-cy.2' by O-cy.3;
+
+sub O-cy.3 @All [A-cy Be-cy Ve-cy Ge-cy Gje-cy Gheupturn-cy De-cy Ie-cy Iegrave-cy Io-cy Zhe-cy Ze-cy Ii-cy Iishort-cy Iigrave-cy Ka-cy Kje-cy El-cy Em-cy En-cy Pe-cy Er-cy Es-cy Te-cy U-cy Ushort-cy Ef-cy Ha-cy Che-cy Tse-cy Sha-cy Shcha-cy Dzhe-cy Softsign-cy Hardsign-cy Yeru-cy Lje-cy Nje-cy Dze-cy E-cy Ereversed-cy I-cy Yi-cy Je-cy Tshe-cy Iu-cy Ia-cy Dje-cy De-cy.loclBGR El-cy.loclBGR Ef-cy.loclBGR Ve-cy.ss01 Ie-cy.ss01 Iegrave-cy.ss01 Io-cy.ss01 Zhe-cy.ss01 Ze-cy.ss01 Ii-cy.ss01 Iishort-cy.ss01 Iigrave-cy.ss01 Ka-cy.ss01 Kje-cy.ss01 Em-cy.ss01 En-cy.ss01 Pe-cy.ss01 Es-cy.ss01 Te-cy.ss01 Ef-cy.ss01 Ha-cy.ss01 Dzhe-cy.ss01 Dze-cy.ss01 E-cy.ss01 Ereversed-cy.ss01 Iu-cy.ss01 Ef-cy.loclBGR.ss01 A-cy.ss02 De-cy.ss02 El-cy.ss02 A-cy.ss03 Ie-cy.ss03 Iegrave-cy.ss03 Io-cy.ss03 Ze-cy.ss03 Ii-cy.ss03 Iishort-cy.ss03 Iigrave-cy.ss03 Em-cy.ss03 Te-cy.ss03 Sha-cy.ss03 Shcha-cy.ss03 Dze-cy.ss03 E-cy.ss03 Ereversed-cy.ss03 Je-cy.ss03 Tshe-cy.ss03 Iu-cy.ss03 Dje-cy.ss03 A-cy.ss04 El-cy.ss04 Dze-cy.ss04 Sha-cy.ss05 Shcha-cy.ss05 tse-cy sha-cy shcha-cy] O-cy.3' by O-cy.4;
+
+sub O-cy.4 @All [A-cy Be-cy Ve-cy Ge-cy Gje-cy Gheupturn-cy De-cy Ie-cy Iegrave-cy Io-cy Zhe-cy Ze-cy Ii-cy Iishort-cy Iigrave-cy Ka-cy Kje-cy El-cy Em-cy En-cy Pe-cy Er-cy Es-cy Te-cy U-cy Ushort-cy Ef-cy Ha-cy Che-cy Tse-cy Sha-cy Shcha-cy Dzhe-cy Softsign-cy Hardsign-cy Yeru-cy Lje-cy Nje-cy Dze-cy E-cy Ereversed-cy I-cy Yi-cy Je-cy Tshe-cy Iu-cy Ia-cy Dje-cy De-cy.loclBGR El-cy.loclBGR Ef-cy.loclBGR Ve-cy.ss01 Ie-cy.ss01 Iegrave-cy.ss01 Io-cy.ss01 Zhe-cy.ss01 Ze-cy.ss01 Ii-cy.ss01 Iishort-cy.ss01 Iigrave-cy.ss01 Ka-cy.ss01 Kje-cy.ss01 Em-cy.ss01 En-cy.ss01 Pe-cy.ss01 Es-cy.ss01 Te-cy.ss01 Ef-cy.ss01 Ha-cy.ss01 Dzhe-cy.ss01 Dze-cy.ss01 E-cy.ss01 Ereversed-cy.ss01 Iu-cy.ss01 Ef-cy.loclBGR.ss01 A-cy.ss02 De-cy.ss02 El-cy.ss02 A-cy.ss03 Ie-cy.ss03 Iegrave-cy.ss03 Io-cy.ss03 Ze-cy.ss03 Ii-cy.ss03 Iishort-cy.ss03 Iigrave-cy.ss03 Em-cy.ss03 Te-cy.ss03 Sha-cy.ss03 Shcha-cy.ss03 Dze-cy.ss03 E-cy.ss03 Ereversed-cy.ss03 Je-cy.ss03 Tshe-cy.ss03 Iu-cy.ss03 Dje-cy.ss03 A-cy.ss04 El-cy.ss04 Dze-cy.ss04 Sha-cy.ss05 Shcha-cy.ss05 tse-cy sha-cy shcha-cy] O-cy.4' by O-cy;
+
+sub @alt1from @All @All @All @alt1from' by @alt1to;
+sub O.2 @All  @All @All O.2' by O.3;
+sub O.3 @All  @All @All O.3' by O.4;
+sub O.4 @All  @All @All O.4' by O;
+sub O-cy.2 @All  @All @All O-cy.2' by O-cy.3;
+sub O-cy.3 @All  @All @All O-cy.3' by O-cy.4;
+sub O-cy.4 @All  @All @All O-cy.4' by O-cy;
+
+
+sub @alt1from @All @All @All @All @alt1from' by @alt1to;
+sub O.2 @All @All  @All @All O.2' by O.3;
+sub O.3 @All @All  @All @All O.3' by O.4;
+sub O.4 @All @All  @All @All O.4' by O;
+sub O-cy.2 @All @All  @All @All O-cy.2' by O-cy.3;
+sub O-cy.3 @All @All  @All @All O-cy.3' by O-cy.4;
+sub O-cy.4 @All @All  @All @All O-cy.4' by O-cy;
+} calt;
+
+feature ss05 {
+# automatic
+sub Sha-cy by Sha-cy.ss05;
+sub Shcha-cy by Shcha-cy.ss05;
+} ss05;
+

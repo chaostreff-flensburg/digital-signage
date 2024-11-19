@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ogonekcomb" format="2">
+  <advance width="600"/>
+  <unicode hex="0328"/>
+  <anchor x="272" y="0" name="_right"/>
+  <outline>
+    <contour>
+      <point x="196" y="-24" type="line" smooth="yes"/>
+      <point x="140" y="-110"/>
+      <point x="222" y="-200"/>
+      <point x="336" y="-200" type="curve" smooth="yes"/>
+      <point x="399" y="-200"/>
+      <point x="447" y="-172"/>
+      <point x="447" y="-124" type="curve" smooth="yes"/>
+      <point x="447" y="-74"/>
+      <point x="396" y="-71"/>
+      <point x="352" y="-83" type="curve" smooth="yes"/>
+      <point x="279" y="-102" type="line" smooth="yes"/>
+      <point x="250" y="-110"/>
+      <point x="233" y="-96"/>
+      <point x="233" y="-76" type="curve" smooth="yes"/>
+      <point x="233" y="-58"/>
+      <point x="240" y="-48"/>
+      <point x="262" y="-37" type="curve" smooth="yes"/>
+      <point x="345" y="5" type="line" smooth="yes"/>
+      <point x="356" y="10"/>
+      <point x="357" y="18"/>
+      <point x="357" y="26" type="curve"/>
+      <point x="234" y="35" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-05-20 10:03:09 +0000</string>
+    </dict>
+  </lib>
+</glyph>

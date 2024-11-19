@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="colon" format="2">
+  <advance width="302"/>
+  <unicode hex="003A"/>
+  <outline>
+    <component base="period" xOffset="20" yOffset="472"/>
+    <component base="period" xScale="-0.5108" xyScale="-0.8597" yScale="-0.5108" yxScale="0.8597" xOffset="159" yOffset="369"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-05-20 09:56:33 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>period</string>
+    </dict>
+  </lib>
+</glyph>
