@@ -1,0 +1,15 @@
+{
+    "name": "eh22",
+    "css": [
+        "/style.css"
+    ],
+    "editable_elements": [
+        {"tag": "h1", "class": "heading", "default": "You are beautiful"},
+        {"tag": "h2", "class": "heading", "default": "Let's change the world"},
+        {"tag": "span", "class": "end", "default": "#EH22"}
+    ],
+    "styling_elements": [
+      {"tag": "img", "alt": "Logo of EH22", "class": "absolute", "id": "eh22-logo", "src": "./eh22-dark/assets/logo.png"},
+      {"tag": "img", "alt": "Doodle of a rocket", "class": "absolute", "id": "doodle", "src": "./eh22-dark/assets/rocket.svg"}
+    ]
+}

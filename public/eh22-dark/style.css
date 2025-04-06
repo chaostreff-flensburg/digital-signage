@@ -1,0 +1,125 @@
+@font-face {
+    font-family: "Athiti";
+    font-weight: 700;
+    src: url("../eh22/athiti/Athiti-Bold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Athiti";
+    font-weight: 600;
+    src: url("../eh22/athiti/Athiti-SemiBold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Athiti";
+    font-weight: 500;
+    src: url("../eh22/athiti/Athiti-Medium.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Athiti";
+    font-weight: 400;
+    src: url("../eh22/athiti/Athiti-Regular.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Athiti";
+    font-weight: 300;
+    src: url("../eh22/athiti/Athiti-Light.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Athiti";
+    font-weight: 200;
+    src: url("../eh22/athiti/Athiti-ExtraLight.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Argon Glow";
+    font-weight: 100;
+    src: url("../eh22/argonglow/ArgonGlow-Thin.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Argon Glow";
+    font-weight: 200;
+    src: url("../eh22/argonglow/ArgonGlow-ExtraLight.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Argon Glow";
+    font-weight: 300;
+    src: url("../eh22/argonglow/ArgonGlow-Light.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Argon Glow";
+    font-weight: 400;
+    src: url("../eh22/argonglow/ArgonGlow-Regular.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Argon Glow";
+    font-weight: 500;
+    src: url("../eh22/argonglow/ArgonGlow-Medium.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Argon Glow";
+    font-weight: 600;
+    src: url("../eh22/argonglow/ArgonGlow-SemiBold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Argon Glow";
+    font-weight: 700;
+    src: url("../eh22/argonglow/ArgonGlow-Bold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Argon Glow";
+    src: url("../eh22/argonglow/ArgonGlow-VariableVF.woff2") format("woff2");
+    font-weight: 100 900;
+}
+
+body {
+    font-family: 'Athiti', ui-sans-serif, sans-serif;
+    background-color: #0c011f;
+    color: #f2f0f5;
+}
+
+h1 {
+    font-family: 'Argon Glow', ui-sans-serif, sans-serif;
+    font-weight: 700;
+    font-size: 3cm;
+    filter: drop-shadow(0 0 0.0625em #ffffff) drop-shadow(0 0 0.125em #c6257d) drop-shadow(0 0 0.25em #c6257d);
+    color: #ffffff;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 50px;
+    margin: 0;
+}
+
+.end {
+    font-weight: 600;
+}
+
+.absolute {
+    position: absolute;
+    height: 2.5cm;
+    width: auto;
+}
+
+#eh22-logo {
+    bottom: 0.75cm;
+    left: 1cm;
+    height: 3.5cm;
+}
+
+#doodle {
+    bottom: 0;
+    right: 1cm;
+    height: 19cm;
+}
