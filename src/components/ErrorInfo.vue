@@ -4,6 +4,8 @@
         <div>
             <h3>Beispiele</h3>
             <ul>
+                <li><a href="/?config=eh22">#EH22</a></li>
+                <li><a href="/?config=eh22-dark">#EH22 GLOW</a></li>
                 <li><a href="/?config=38c3">#38C3</a></li>
                 <li><a href="/?config=example1">Example1 - Hacks on the Beach</a></li>
                 <li><a href="/?config=hoth">hoth.info Hacks on the Habour</a></li>
