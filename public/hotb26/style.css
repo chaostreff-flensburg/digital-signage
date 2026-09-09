@@ -1,0 +1,129 @@
+/* ---------------------------------------------------------------
+   hacks on the BEACH 2026 - #hotb26
+   Basiert auf dem hacks-on-the-beach Design, ergaenzt um das
+   Schwammhirn als zusaetzliches Zeichen auf dem Plakat.
+
+   Keine doppelten Assets: Space Mono kommt aus ../hoth/, die
+   hacks-on-the-beach Grafiken aus assets/img/hacksonthebeach/
+   (wie in example1 ueber raw.githubusercontent eingebunden).
+   Lokal liegt hier nur das neue schwammhirn.svg.
+   --------------------------------------------------------------- */
+
+/* space-mono-regular - latin */
+@font-face {
+	font-family: 'Space Mono';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src:
+		url('../hoth/space-mono-v4-latin/space-mono-v4-latin-regular.woff2') format('woff2'),
+		url('../hoth/space-mono-v4-latin/space-mono-v4-latin-regular.woff') format('woff');
+}
+/* space-mono-italic - latin */
+@font-face {
+	font-family: 'Space Mono';
+	font-style: italic;
+	font-weight: 400;
+	font-display: swap;
+	src:
+		url('../hoth/space-mono-v4-latin/space-mono-v4-latin-italic.woff2') format('woff2'),
+		url('../hoth/space-mono-v4-latin/space-mono-v4-latin-italic.woff') format('woff');
+}
+/* space-mono-700 - latin */
+@font-face {
+	font-family: 'Space Mono';
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	src:
+		url('../hoth/space-mono-v4-latin/space-mono-v4-latin-700.woff2') format('woff2'),
+		url('../hoth/space-mono-v4-latin/space-mono-v4-latin-700.woff') format('woff');
+}
+/* space-mono-700italic - latin */
+@font-face {
+	font-family: 'Space Mono';
+	font-style: italic;
+	font-weight: 700;
+	font-display: swap;
+	src:
+		url('../hoth/space-mono-v4-latin/space-mono-v4-latin-700italic.woff2') format('woff2'),
+		url('../hoth/space-mono-v4-latin/space-mono-v4-latin-700italic.woff') format('woff');
+}
+
+/* --- Farben aus dem hacks-on-the-beach Branding --- */
+:root {
+	--hotb-blue: #3b579a;
+	--hotb-red: #e73747;
+	--hotb-sand: #fdf2d7;
+	--hotb-dark: #222;
+}
+
+body {
+	font-family: 'Space Mono', monospace;
+	color: var(--hotb-dark);
+}
+
+/* Wellen-Hintergrund wie beim hacks-on-the-beach Schild */
+#hotb26 {
+	width: 100vw;
+	height: 100vh;
+	margin: 0 !important;
+	padding: 0 !important;
+	background-image: url('https://raw.githubusercontent.com/chaostreff-flensburg/digitalSignage/master/assets/img/hacksonthebeach/flagoutline.svg');
+	background-repeat: no-repeat;
+	background-size: 210%;
+	background-position: center;
+	background-position-y: 53.5%;
+}
+
+/* --- Text --- */
+.heading {
+	font-weight: 700;
+	font-size: 60pt;
+	line-height: 1.08;
+	margin-bottom: 0.4cm;
+	hyphens: auto;
+	overflow-wrap: break-word;
+}
+.subline {
+	font-size: 28pt;
+	margin-top: 0.2cm;
+	color: var(--hotb-blue);
+}
+.hashtag {
+	display: block;
+	margin-top: 1.1cm;
+	font-size: 24pt;
+	font-weight: 700;
+	color: var(--hotb-red);
+}
+
+/* Textspalte etwas schmaler, damit sie nicht unter die Zeichen laeuft */
+.wrapper {
+	left: 9vw;
+	width: 82vw;
+}
+
+/* --- Zeichen auf dem Plakat --- */
+.absolute {
+	position: absolute;
+	height: 2.5cm;
+	width: auto;
+}
+/* Schwammhirn: neues Zeichen fuer 2026, oben rechts */
+#hotb-schwammhirn {
+	top: 0.9cm;
+	left: 1.25cm;
+	height: 5cm;
+	transform: rotate(-8deg);
+}
+#hotb-logo {
+	bottom: 0.75cm;
+	left: 1cm;
+	height: 15%;
+}
+#hotb-schirm {
+	bottom: 0.75cm;
+	right: 1cm;
+	height: 22.5%;
+}

@@ -1,0 +1,16 @@
+{
+    "name": "hotb26",
+    "css": [
+        "/style.css"
+    ],
+    "editable_elements": [
+        {"tag": "h1", "class": "heading", "default": "You are beautiful"},
+        {"tag": "p", "class": "subline", "default": "Let's change the world"},
+        {"tag": "span", "class": "hashtag", "default": "#hotb26"}
+    ],
+    "styling_elements": [
+        {"tag": "img", "alt": "Schwammhirn", "class": "absolute", "id": "hotb-schwammhirn", "src": "./hotb26/schwammhirn.svg"},
+        {"tag": "img", "alt": "hacks on the BEACH", "class": "absolute", "id": "hotb-logo", "src": "https://raw.githubusercontent.com/chaostreff-flensburg/digitalSignage/master/assets/img/hacksonthebeach/wortmarke.svg"},
+        {"tag": "img", "alt": "Lötschirm", "class": "absolute", "id": "hotb-schirm", "src": "https://raw.githubusercontent.com/chaostreff-flensburg/digitalSignage/master/assets/img/hacksonthebeach/loetschirm.svg"}
+    ]
+}
