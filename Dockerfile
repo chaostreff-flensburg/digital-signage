@@ -1,10 +1,13 @@
-FROM node:22-alpine AS builder
+FROM node:26-alpine AS builder
+
+WORKDIR /app
+
+COPY package.json package-lock.json .npmrc ./
+RUN npm ci
 
 COPY . ./
-
-RUN npm ci
 RUN npm run build
 
-FROM nginx:alpine
+FROM nginx:stable-alpine
 
-COPY --from=builder ./dist/ /usr/share/nginx/html/
+COPY --from=builder /app/dist/ /usr/share/nginx/html/
